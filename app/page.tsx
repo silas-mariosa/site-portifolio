@@ -3,6 +3,8 @@
 import Atributos from "@/components/atributos";
 import BannerMid from "@/components/bannerMid";
 import BannerTop from "@/components/bannerTop";
+import ChannelCard from "@/components/channelCard";
+import Expertise from "@/components/expertise";
 import Language from "@/components/language";
 import Portifolios from "@/components/portifolios";
 import AppSidebar from "@/components/sideBar";
@@ -19,6 +21,8 @@ export default function Home() {
       <BannerMid />
       <Atributos />
       <Portifolios />
+      <Expertise />
+      <ChannelCard />
     </div>
   );
 }
