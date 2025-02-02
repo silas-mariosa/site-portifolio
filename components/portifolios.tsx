@@ -27,8 +27,8 @@ const portifolio = [
 		image: "/notebook.png",
 		abount: "lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nisl nec ultricies lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nisl vitae nisl. Sed euismod, nisl nec ultricies lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nisl vitae nisl. Sed euismod, nisl nec ultricies lacinia, nunc nisl aliquam nunc, vitae aliquam nisl nisl vitae nisl."
 	}
-
 ]
+
 export default function Portifolios() {
 	return (
 		<section className="flex flex-col gap-4 mx-[5%] sm:mx-[20%] text-white mb-[5%]">
