@@ -21,7 +21,7 @@ export default function ChannelCard() {
   return (
     <>
       <hr className="h-5 w-full  bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6]" />
-      <section className="flex flex-col md:flex-row gap-4 justify-center item-center sm:items-start p-4 bg-[#151922] py-10">
+      <section id="channel" className="flex flex-col md:flex-row gap-4 justify-center item-center sm:items-start p-4 bg-[#151922] py-10">
         <div className="flex flex-col justify-center item-center sm:items-start text-white max-w-md gap-6">
           <h3 className="font-bold text-[36px] text-center sm:text-start">Siga meu canal no youtube!</h3>
           <p className="font-semibold text-center sm:text-start">Compartilho dicas diárias sobre programação, freelancer, crescimento profissional pessoal, notícias de tecnologia e insights de negócios.</p>

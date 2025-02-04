@@ -108,7 +108,7 @@ export default function Contato() {
 		sucesso && form.reset()
 	}
 	return (
-		<section className="flex flex-col sm:flex-row justify-center items-start gap-10 p-10">
+		<section id='contato' className="flex flex-col sm:flex-row justify-center items-start gap-10 p-10">
 			<div className="text-white max-w-xs">
 				<h2 className="text-[36px] font-bold mb-5 leading-10">Vamos desenvolver o seu projeto?</h2>
 				<p className="text-md font-medium leading-5">

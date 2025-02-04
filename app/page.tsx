@@ -11,10 +11,14 @@ import Portifolios from "@/components/portifolios";
 import AppSidebar from "@/components/sideBar";
 
 export default function Home() {
+
   return (
-    <div>
-      <header className="flex flex-row justify-between items-center p-2 color-white">
+    <div id="home">
+      <div className={`fixed top-2 left-2 z-50`}>
         <AppSidebar />
+      </div>
+      <header className="flex flex-row justify-between items-center p-2 color-white">
+        <div></div>
         <h1 className="text-white text-[30px]">Mariosa Tech</h1>
         <Language />
       </header>

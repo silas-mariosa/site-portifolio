@@ -31,7 +31,7 @@ const portifolio = [
 
 export default function Portifolios() {
 	return (
-		<section className="flex flex-col gap-4 mx-[5%] sm:mx-[20%] text-white mb-[5%]">
+		<section id='portifolios' className="flex flex-col gap-4 mx-[5%] sm:mx-[20%] text-white mb-[5%]">
 			<div className="flex justify-center items-center mb-4">
 				<h2 className="text-center text-2x1 sm:text-[48px] max-w-md font-bold leading-tight">Construindo projetos para impactar</h2>
 			</div>

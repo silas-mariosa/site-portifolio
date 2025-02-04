@@ -27,7 +27,7 @@ const atributos = [
 
 export default function Atributos() {
 	return (
-		<section className="grid grid-cols-1 xl:grid-cols-2 gap-4 my-[10%] mx-[5%] sm:mx-[20%]">
+		<section id='atributos' className="grid grid-cols-1 xl:grid-cols-2 gap-4 my-[10%] mx-[5%] sm:mx-[20%]">
 			{atributos.map((atributo, index) => (
 				<div key={index} className="flex flex-row mx-6 my-4">
 					<div>

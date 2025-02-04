@@ -1,5 +1,7 @@
 'use client'
 
+import { useTranslations } from "@/hooks/useTranslations";
+
 const social = [
 	{
 		name: "Youtube",
@@ -16,10 +18,11 @@ const social = [
 ]
 
 export default function BannerTop() {
+	const { t } = useTranslations();
 	return (
 		<section className="flex flex-col justify-center items-center p-2 text-white">
 			<div className="flex flex-col mx-[5%] sm:mx-[20%] mt-[10%] gap-2">
-				<h1 className="text-[28px] sm:text-[32px] md:text-[48px] text-center md:text-start"> HUAHU AHU AHU UHAH UAHUAHU AHU AHU AHUA HUAHU HAH UAHUA UHAUHUA HUA HUA</h1>
+				<h1 className="text-[28px] sm:text-[32px] md:text-[48px] text-center md:text-start">{t('headerTitle', 'title')}</h1>
 				<div className="flex flex-row justify-center md:justify-start items-center gap-4 text-white">
 					{
 						social.map((item) => (

@@ -1,24 +1,69 @@
 'use client'
 
-import { Menu } from "lucide-react";
-import { Sheet, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
+import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, TvMinimalPlay } from "lucide-react";
+import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import Image from "next/image";
 
+const buttons = [
+	{
+		id: Math.random(),
+		label: "Home",
+		href: "/#home",
+		icon: <HouseIcon className="text-white w-10 h-10" />,
+	},
+	{
+		id: Math.random(),
+		label: "Atributos",
+		href: "/#atributos",
+		icon: <CircleFadingPlus className="text-white w-10 h-10" />,
+	},
+	{
+		id: Math.random(),
+		label: "Portifólios",
+		href: "/#portifolios",
+		icon: <BriefcaseBusiness className="text-white w-10 h-10" />,
+	},
+	{
+		id: Math.random(),
+		label: "Canal Youtube",
+		href: "/#channel",
+		icon: <TvMinimalPlay className="text-white w-10 h-10" />,
+	},
+	{
+		id: Math.random(),
+		label: "Contato",
+		href: "/#contato",
+		icon: <PhoneIcon className="text-white w-10 h-10" />,
+	},
+]
+
 export default function AppSidebar() {
 	return (
-		<Sheet >
+		<Sheet>
 			<SheetTrigger asChild className="p-0 m-0 border-none">
-				<Button asChild variant={"ghost"}>
-					<Menu className="text-white w-10 h-10 mr-2" />
+				<Button asChild variant={"ghost"} className="hover:bg-[#151922]">
+					<Menu className="text-[#5271ff] w-10 h-10 hover:text-[#cdffd8] mr-2" />
 				</Button>
 			</SheetTrigger>
-			<SheetContent side={"left"} className="">
+			<SheetContent side={"left"} className="bg-[#151922] text-white w-[200px]">
 				<div className="h-screen overflow-y-auto">
 					<SheetHeader>
-						<div className="flex relative items-center mx-3.5 py-4 px-3.5">
-							<Image src={''} alt="Logo" width={45}></Image>
-							<h3 className={`pl-2 font-bold text-lg`}>Mariosa Tech</h3>
+						<div className="flex flex-col items-center">
+							<Image src={''} alt="Logo" width={45} />
+							<h3 className={`font-bold text-lg`}>Mariosa Tech</h3>
+							<div className="flex flex-col gap-2 mx-[5%]">
+								{buttons.map((button) => (
+									<SheetClose asChild key={button.id}>
+										<Button
+											variant={"default"}
+											className="flex flex-row gap-2 text-white w-full justify-start">
+											{button.icon}
+											<a href={button.href}>{button.label}</a>
+										</Button>
+									</SheetClose>
+								))}
+							</div>
 						</div>
 					</SheetHeader>
 				</div>

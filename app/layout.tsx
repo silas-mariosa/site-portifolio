@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 import { ToastProvider } from "@radix-ui/react-toast";
+import { LanguageProvider } from "@/context/LanguageContext";
 
 
 export const metadata: Metadata = {
@@ -14,11 +15,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html>
-      <body>
-        <ToastProvider>
-          {children}
-        </ToastProvider>
+    <html lang="en">
+      <body className="scroll-smooth">
+        <LanguageProvider>
+          <ToastProvider>
+            {children}
+          </ToastProvider>
+        </LanguageProvider>
       </body>
     </html>
   );
