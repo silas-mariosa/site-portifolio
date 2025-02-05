@@ -1,31 +1,34 @@
 'use client'
 
 import { PanelsTopLeft, Store, Code, HandHelping } from 'lucide-react'
-
-const atributos = [
-	{
-		icone: PanelsTopLeft,
-		nome: 'Design',
-		descricao: 'Oferecemos soluções completas de design para empresas em todos os seus estágios. Nossas entregas vão da concepção da marca à criação de interfaces com design estratégico de serviços e produtos digitais focados na experiência do usuário.'
-	},
-	{
-		icone: Store,
-		nome: 'Marketing Digital',
-		descricao: 'Na consultoria em transformação digital, sempre tratamos tecnologia e usabilidade como negócio. Desenvolvemos e orientamos estratégias digitais com metodologia para transformar a realidade das empresas.'
-	},
-	{
-		icone: Code,
-		nome: 'Desenvolvimento',
-		descricao: 'Oferecemos soluções completas de design para empresas em todos os seus estágios. Nossas entregas vão da concepção da marca à criação de interfaces com design estratégico de serviços e produtos digitais focados na experiência do usuário.'
-	},
-	{
-		icone: HandHelping,
-		nome: 'Manutenção',
-		descricao: 'Garantimos a performance e a confiabilidade dos seus ativos online por meio de manutenção contínua, para que você possa focar no crescimento do seu negócio.'
-	}
-]
+import { useTranslations } from '@/hooks/useTranslations'
 
 export default function Atributos() {
+	const { t } = useTranslations()
+
+	const atributos = [
+		{
+			icone: PanelsTopLeft,
+			nome: t('AtributosComponent', 'nomeDesign'),
+			descricao: t('AtributosComponent', 'describeDesign')
+		},
+		{
+			icone: Store,
+			nome: t('AtributosComponent', 'nomeMarketing'),
+			descricao: t('AtributosComponent', 'describeMarketing')
+		},
+		{
+			icone: Code,
+			nome: t('AtributosComponent', 'nomeDevelopment'),
+			descricao: t('AtributosComponent', 'describeDevelopment')
+		},
+		{
+			icone: HandHelping,
+			nome: t('AtributosComponent', 'nomeMaintenance'),
+			descricao: t('AtributosComponent', 'describeMaintenance')
+		}
+	]
+
 	return (
 		<section id='atributos' className="grid grid-cols-1 xl:grid-cols-2 gap-4 my-[10%] mx-[5%] sm:mx-[20%]">
 			{atributos.map((atributo, index) => (

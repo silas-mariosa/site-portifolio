@@ -13,28 +13,8 @@ import { Textarea } from "./ui/textarea";
 import { formatarNumeroCelular } from "@/hooks/formater";
 import SendEmail from "@/hooks/sendEmail";
 import { LoaderCircle } from "lucide-react";
+import { useTranslations } from "@/hooks/useTranslations";
 
-const formSchema = z.object({
-	name: z.string().min(2, {
-		message: "Nome precisa ter no mínimo 2 caracteres.",
-	}),
-	nameEmpresa: z.string().min(2, {
-		message: "Nome da empresa precisa ter no mínimo 2 caracteres.",
-	}),
-	email: z.string().email({
-		message: "Email inválido.",
-	}),
-	telefone: z.string().min(15, {
-		message: "Telefone precisa ter no mínimo 11 caracteres.",
-	}),
-	checkBox: z.boolean().default(false),
-	description: z.string().optional(),
-	term: z.boolean().refine((value) => value === true, {
-		message: "Você precisa aceitar os termos de uso.",
-	})
-});
-
-export type FormSchema = z.infer<typeof formSchema>
 type FormFieldType = {
 	id: string;
 	label: string;
@@ -42,51 +22,32 @@ type FormFieldType = {
 	placeholder?: string;
 }
 
-
-const formField: FormFieldType[] = [
-	{
-		id: "name",
-		label: "Nome",
-		type: "text",
-		placeholder: "Digite seu nome",
-	},
-	{
-		id: "nameEmpresa",
-		label: "Nome da empresa",
-		type: "text",
-		placeholder: "Digite o nome da empresa",
-	},
-	{
-		id: "email",
-		label: "Email",
-		type: "email",
-		placeholder: "Digite seu email",
-	},
-	{
-		id: "telefone",
-		label: "Telefone",
-		type: "text",
-		placeholder: "Digite seu telefone",
-	},
-	{
-		id: "checkBox",
-		label: "Este número também é o meu Whatsapp",
-		type: "checkbox",
-	},
-	{
-		id: "description",
-		label: "Conte sobre o seu desafio de negócio:",
-		type: "text",
-		placeholder: "Descreva os principais desafios do seu negócio ou projeto e como podemos ajudar.",
-	},
-	{
-		id: "term",
-		label: "Li e estou de acordo com as políticas de privacidade do site",
-		type: "checkbox",
-	}
-]
-
 export default function Contato() {
+	const { t } = useTranslations()
+
+	const formSchema = z.object({
+		name: z.string().min(2, {
+			message: t('contact', 'formName'),
+		}),
+		nameEmpresa: z.string().min(2, {
+			message: t('contact', 'formEmpresa'),
+		}),
+		email: z.string().email({
+			message: t('contact', 'formEmail'),
+		}),
+		telefone: z.string().min(15, {
+			message: t('contact', 'formPhone'),
+		}),
+		checkBox: z.boolean().default(false),
+		description: z.string().optional(),
+		term: z.boolean().refine((value) => value === true, {
+			message: t('contact', 'formTerm'),
+		})
+	});
+
+
+	type FormSchema = z.infer<typeof formSchema>
+
 	const { isLoading, onSubmitContato, sucesso } = SendEmail()
 	const form = useForm<FormSchema>({
 		resolver: zodResolver(formSchema),
@@ -101,18 +62,59 @@ export default function Contato() {
 		},
 	})
 
+	const formField: FormFieldType[] = [
+		{
+			id: "name",
+			label: t('contact', 'Name'),
+			type: "text",
+			placeholder: t('contact', 'NamePlaceHolder'),
+		},
+		{
+			id: "nameEmpresa",
+			label: t('contact', 'NameCompany'),
+			type: "text",
+			placeholder: t('contact', 'NameCompanyPlaceHolder'),
+		},
+		{
+			id: "email",
+			label: t('contact', 'Email'),
+			type: "email",
+			placeholder: t('contact', 'EmailPlaceHolder'),
+		},
+		{
+			id: "telefone",
+			label: t('contact', 'Phone'),
+			type: "text",
+			placeholder: t('contact', 'PhonePlaceHolder'),
+		},
+		{
+			id: "checkBox",
+			label: t('contact', 'CheckBox'),
+			type: "checkbox",
+		},
+		{
+			id: "description",
+			label: t('contact', 'Description'),
+			type: "text",
+			placeholder: t('contact', 'DescriptionPlaceHolder'),
+		},
+		{
+			id: "term",
+			label: t('contact', 'CheckBoxTerm'),
+			type: "checkbox",
+		}
+	]
+
 	function onSubmit(data: FormSchema) {
 		onSubmitContato(data)
-		console.log('Sucesso: ', sucesso)
-		console.log('isLoading: ', isLoading)
 		sucesso && form.reset()
 	}
 	return (
 		<section id='contato' className="flex flex-col sm:flex-row justify-center items-start gap-10 p-10">
 			<div className="text-white max-w-xs">
-				<h2 className="text-[36px] font-bold mb-5 leading-10">Vamos desenvolver o seu projeto?</h2>
+				<h2 className="text-[36px] font-bold mb-5 leading-10">{t('contact', 'ContatoTitle')}</h2>
 				<p className="text-md font-medium leading-5">
-					Conte um pouco mais sobre o seu projeto para que possamos encontrar a melhor solução e agendarmos uma conversa mais aprofundada.
+					{t('contact', 'ContatoAbout')}
 				</p>
 			</div>
 			<Card className="p-5 bg-[#151922]">
@@ -166,11 +168,11 @@ export default function Contato() {
 								{isLoading ? (
 									<div className="flex items-center justify-center">
 										<LoaderCircle className="h-4 w-4 mr-2" />
-										Enviando...
+										{t('contact', 'Sending')}
 									</div>
 								) : (
 									<div className="flex items-center justify-center">
-										Enviar
+										{t('contact', 'Send')}
 									</div>
 								)}
 							</Button>

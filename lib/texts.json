@@ -5,5 +5,281 @@
       "it-it": "Titolo dell'header",
       "pt-br": "Título do cabeçalho"
     }
+  },
+  "ChannelComponent": {
+    "follow": {
+      "en": "Follow my YouTube channel!",
+      "it-it": "Seguite il mio canale su YouTube!",
+      "pt-br": "Siga meu canal no youtube!"
+    },
+    "Share": {
+      "en": "I share daily tips on coding, freelancing, personal professional growth, technology news, and business insights.",
+      "it-it": "Condivido consigli quotidiani su programmazione, freelancing, crescita professionale personale, notizie tecnologiche e consigli aziendali.",
+      "pt-br": "Eu compartilho dicas diários sobre programação, freelancing, crescimento profissional pessoal, notícias de tecnologia e insights de negócios."
+    },
+    "Go": {
+      "en": "Ir para Youtube",
+      "it-it": "Vai su Youtube",
+      "pt-br": "Ir para Youtube"
+    }
+  },
+  "AtributosComponent": {
+    "nomeDesign": {
+      "en": "Design",
+      "it-it": "Progetto",
+      "pt-br": "Design"
+    },
+    "describeDesign": {
+      "en": "We offer complete design solutions for companies at all stages. Our services range from brand design to the creation of interfaces with strategic design of digital services and products focused on user experience.",
+      "it-it": "Offriamo soluzioni progettuali complete per le aziende in ogni fase. Le nostre realizzazioni spaziano dalla progettazione del marchio alla creazione di interfacce con progettazione strategica di servizi e prodotti digitali incentrati sull'esperienza dell'utente.",
+      "pt-br": "Oferecemos soluções completas de design para empresas em todos os seus estágios. Nossas entregas vão da concepção da marca à criação de interfaces com design estratégico de serviços e produtos digitais focados na experiência do usuário."
+    },
+    "nomeMarketing": {
+      "en": "Digital Marketing",
+      "it-it": "Marketing digitale",
+      "pt-br": "Marketing Digital"
+    },
+    "describeMarketing": {
+      "en": "In digital transformation consulting, we always treat technology and usability as a business. We develop and guide digital strategies with a methodology to transform the reality of companies.",
+      "it-it": "Nella consulenza sulla trasformazione digitale, consideriamo sempre la tecnologia e l'usabilità come un business. Sviluppiamo e guidiamo strategie digitali con una metodologia volta a trasformare la realtà delle aziende.",
+      "pt-br": "Na consultoria em transformação digital, sempre tratamos tecnologia e usabilidade como negócio. Desenvolvemos e orientamos estratégias digitais com metodologia para transformar a realidade das empresas."
+    },
+    "nomeDevelopment": {
+      "en": "Development",
+      "it-it": "Sviluppo",
+      "pt-br": "Desenvolvimento"
+    },
+    "describeDevelopment": {
+      "en": "We offer complete design solutions for companies at all stages. Our services range from brand design to the creation of interfaces with strategic design of digital services and products focused on user experience.",
+      "it-it": "Offriamo soluzioni progettuali complete per le aziende in ogni fase. Le nostre realizzazioni spaziano dalla progettazione del marchio alla creazione di interfacce con progettazione strategica di servizi e prodotti digitali incentrati sull'esperienza dell'utente.",
+      "pt-br": "Oferecemos soluções completas de design para empresas em todos os seus estágios. Nossas entregas vão da concepção da marca à criação de interfaces com design estratégico de serviços e produtos digitais focados na experiência do usuário."
+    },
+    "nomeMaintenance": {
+      "en": "Maintenance",
+      "it-it": "Manutenzione",
+      "pt-br": "Manutenção"
+    },
+    "describeMaintenance": {
+      "en": "We ensure the performance and reliability of your online assets through ongoing maintenance, so you can focus on growing your business.",
+      "it-it": "Garantiamo le prestazioni e l'affidabilità delle tue risorse online attraverso una manutenzione continua, così puoi concentrarti sulla crescita del tuo business.",
+      "pt-br": "Garantimos a performance e a confiabilidade dos seus ativos online por meio de manutenção contínua, para que você possa focar no crescimento do seu negócio."
+    }
+  },
+  "bannerMid": {
+    "title": {
+      "en": "Building software to impact the world0",
+      "it-it": "Creare software per avere un impatto sul mondo",
+      "pt-br": "Construindo software para impactar o mundo"
+    },
+    "description": {
+      "en": "Full-Stack Developer",
+      "it-it": "Sviluppatore full-stack",
+      "pt-br": "Desenvolvedor Full-Stack"
+    },
+    "text": {
+      "en": "i'm a full-stack developer who are passionate about building software that has a positive impact on the world. We use the latest technologies and best practices to create high-quality, scalable, and secure software solutions that meet the needs of our clients.",
+      "it-it": "Sono uno sviluppatore full-stack appassionato di software che abbia un impatto positivo sul mondo. Utilizziamo le tecnologie più recenti e le migliori pratiche per creare soluzioni software di alta qualità, scalabili e sicure che soddisfano le esigenze dei nostri clienti.",
+      "pt-br": "sou um desenvolvedor full-stack apaixonado por construir software que tenha um impacto positivo no mundo. Usamos as últimas tecnologias e melhores práticas para criar soluções de software de alta qualidade, escaláveis ​​e seguras que atendam às necessidades de nossos clientes."
+    }
+  },
+  "Portifolio": {
+    "title": {
+      "en": "Portfolio",
+      "it-it": "Portfolio",
+      "pt-br": "Portfólio"
+    },
+    "description": {
+      "en": "See my projects",
+      "it-it": "Guarda i miei progetti",
+      "pt-br": "Veja meus projetos"
+    },
+    "about": {
+      "en": "Smart Gabinete is a SaaS for managing parliamentary offices, offering demand control, contact organization, event management and customized reports. The platform is intuitive, responsive and includes interactive dashboards, as well as a free 30-day trial.",
+      "it-it": "Smart Gabinete è un SaaS per la gestione degli uffici parlamentari, che offre controllo della domanda, organizzazione dei contatti, gestione degli eventi e report personalizzati. La piattaforma è intuitiva, reattiva e include dashboard interattive, oltre a una prova gratuita di 30 giorni.",
+      "pt-br": "O Smart Gabinete é um SaaS para gestão de gabinetes parlamentares, oferecendo controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. A plataforma é intuitiva, responsiva e inclui dashboards interativos, além de um teste gratuito de 30 dias."
+    },
+    "titleCard": {
+      "en": "Building projects to make an impact",
+      "it-it": "Costruire progetti per avere un impatto",
+      "pt-br": "Construindo projetos para ter um impacto"
+    },
+    "buttonMore": {
+      "en": "See More",
+      "it-it": "vedere di più",
+      "pt-br": "Ver Mais"
+    },
+    "portifolio": {
+      "en": "Portfolio",
+      "it-it": "Portfolio",
+      "pt-br": "Portfólio"
+    }
+  },
+  "expertise": {
+    "name": {
+      "en": "4 YEARS",
+      "it-it": "4 ANNI",
+      "pt-br": "4 ANOS"
+    },
+    "spanName": {
+      "en": "of experience",
+      "it-it": "di esperienza",
+      "pt-br": "de experiência"
+    },
+    "ads": {
+      "en": "Ads",
+      "it-it": "Annunci",
+      "pt-br": "Anuncíos"
+    },
+    "webDesign": {
+      "en": "Web design",
+      "it-it": "Progettazione web",
+      "pt-br": "Design de web"
+    },
+    "developer": {
+      "en": "FULL STACK DEVELOPER",
+      "it-it": "SVILUPPATORE FULL STACK",
+      "pt-br": "DESENVOLVEDOR FULL STACK"
+    }
+  },
+  "footer": {
+    "title": {
+      "en": "@ 2025 Mariosa Tech. All rights reserved.",
+      "it-it": "@ 2025 Mariosa Tech. Tutti i diritti riservati.",
+      "pt-br": "@ 2025 Mariosa Tech. Todos os direitos reservados."
+    }
+  },
+  "contact": {
+    "formName": {
+      "en": "Name must have at least 2 characters.",
+      "it-it": "Il nome deve avere almeno 2 caratteri.",
+      "pt-br": "O nome deve ter pelo menos 2 caracteres."
+    },
+    "formEmpresa": {
+      "en": "Company name must have at least 2 characters.",
+      "it-it": "Il nome dell'azienda deve avere almeno 2 caratteri.",
+      "pt-br": "O nome da empresa deve ter pelo menos 2 caracteres."
+    },
+    "formEmail": {
+      "en": "Invalid email address.",
+      "it-it": "Indirizzo email non valido.",
+      "pt-br": "Endereço de e-mail inválido."
+    },
+    "formPhone": {
+      "en": "Phone number must be in the format (XX) XXXXX-XXXX.",
+      "it-it": "Il numero di telefono deve essere nel formato (XX) XXXXX-XXXX.",
+      "pt-br": "O número de telefone deve estar no formato (XX) XXXXX-XXXX."
+    },
+    "formTerm": {
+      "en": "You must accept the terms of use.",
+      "it-it": "Devi accettare i termini di utilizzo.",
+      "pt-br": "Você deve aceitar os termos de uso."
+    },
+    "Name": {
+      "en": "Name",
+      "it-it": "Nome",
+      "pt-br": "Nome"
+    },
+    "NamePlaceHolder": {
+      "en": "Enter your name",
+      "it-it": "Inserisci il tuo nome",
+      "pt-br": "Digite seu nome"
+    },
+    "NameCompany": {
+      "en": "Company Name",
+      "it-it": "Nome dell'azienda",
+      "pt-br": "Nome da Empresa"
+    },
+    "NameCompanyPlaceHolder": {
+      "en": "Enter the company name",
+      "it-it": "Inserisci il nome dell'azienda",
+      "pt-br": "Digite o nome da empresa"
+    },
+    "Email": {
+      "en": "Email",
+      "it-it": "Email",
+      "pt-br": "Email"
+    },
+    "EmailPlaceHolder": {
+      "en": "Enter your email",
+      "it-it": "Inserisci la tua email",
+      "pt-br": "Digite seu email"
+    },
+    "Phone": {
+      "en": "Phone",
+      "it-it": "Telefono",
+      "pt-br": "Telefone"
+    },
+    "PhonePlaceHolder": {
+      "en": "Enter your phone number",
+      "it-it": "Inserisci il tuo numero di telefono",
+      "pt-br": "Digite seu número de telefone"
+    },
+    "CheckBox": {
+      "en": "This number is also my Whatsapp",
+      "it-it": "Questo numero è anche il mio Whatsapp",
+      "pt-br": "Este número também é o meu Whatsapp"
+    },
+    "Description": {
+      "en": "Tell us about your business challenge:",
+      "it-it": "Parlaci del tuo problema aziendale:",
+      "pt-br": "Fale sobre seu desafio empresarial:"
+    },
+    "DescriptionPlaceHolder": {
+      "en": "Describe the main challenges of your business or project and how we can help.",
+      "it-it": "Descrivi le principali sfide della tua azienda o del tuo progetto e come possiamo aiutarti.",
+      "pt-br": "Descreva os principais desafios do seu negócio ou projeto e como podemos ajudar."
+    },
+    "CheckBoxTerm": {
+      "en": "I have read and agree to the website's privacy policies",
+      "it-it": "Ho letto e accetto le norme sulla privacy del sito web",
+      "pt-br": "Li e estou de acordo com as políticas de privacidade do site"
+    },
+    "ContatoAbout": {
+      "en": "Tell us a little more about your project so we can find the best solution and schedule a more in-depth conversation.",
+      "it-it": "Parlaci un po' di più del tuo progetto così possiamo trovare la soluzione migliore e programmare una conversazione più approfondita.",
+      "pt-br": "Fale um pouco mais sobre seu projeto para que possamos encontrar a melhor solução e agendar uma conversa mais aprofundada."
+    },
+    "ContatoTitle": {
+      "en": "Let's develop your project?",
+      "it-it": "Sviluppiamo il tuo progetto?",
+      "pt-br": "Desenvolvemos seu projeto?"
+    },
+    "Sending": {
+      "en": "Sending...",
+      "it-it": "Inviando...",
+      "pt-br": "Enviando..."
+    },
+    "Send": {
+      "en": "Send",
+      "it-it": "Invia",
+      "pt-br": "Enviar"
+    }
+  },
+  "sideBar": {
+    "home": {
+      "en": "Home",
+      "it-it": "Home",
+      "pt-br": "Home"
+    },
+    "atributos": {
+      "en": "Attributes",
+      "it-it": "Attributi",
+      "pt-br": "Atributos"
+    },
+    "portifolio": {
+      "en": "Portfolio",
+      "it-it": "Portfolio",
+      "pt-br": "Portfólio"
+    },
+    "canalYoutube": {
+      "en": "Youtube Channel",
+      "it-it": "Canale Youtube",
+      "pt-br": "Canal do Youtube"
+    },
+    "contact": {
+      "en": "Contact",
+      "it-it": "Contatto",
+      "pt-br": "Contato"
+    }
   }
 }

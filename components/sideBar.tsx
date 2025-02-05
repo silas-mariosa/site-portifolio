@@ -4,41 +4,44 @@ import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, TvMini
 import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import Image from "next/image";
-
-const buttons = [
-	{
-		id: Math.random(),
-		label: "Home",
-		href: "/#home",
-		icon: <HouseIcon className="text-white w-10 h-10" />,
-	},
-	{
-		id: Math.random(),
-		label: "Atributos",
-		href: "/#atributos",
-		icon: <CircleFadingPlus className="text-white w-10 h-10" />,
-	},
-	{
-		id: Math.random(),
-		label: "Portifólios",
-		href: "/#portifolios",
-		icon: <BriefcaseBusiness className="text-white w-10 h-10" />,
-	},
-	{
-		id: Math.random(),
-		label: "Canal Youtube",
-		href: "/#channel",
-		icon: <TvMinimalPlay className="text-white w-10 h-10" />,
-	},
-	{
-		id: Math.random(),
-		label: "Contato",
-		href: "/#contato",
-		icon: <PhoneIcon className="text-white w-10 h-10" />,
-	},
-]
+import { useTranslations } from "@/hooks/useTranslations";
 
 export default function AppSidebar() {
+	const { t } = useTranslations()
+
+	const buttons = [
+		{
+			id: Math.random(),
+			label: t('sideBar', 'home'),
+			href: "/#home",
+			icon: <HouseIcon className="text-white w-10 h-10" />,
+		},
+		{
+			id: Math.random(),
+			label: t('sideBar', 'atributos'),
+			href: "/#atributos",
+			icon: <CircleFadingPlus className="text-white w-10 h-10" />,
+		},
+		{
+			id: Math.random(),
+			label: t('sideBar', 'portifolio'),
+			href: "/#portifolios",
+			icon: <BriefcaseBusiness className="text-white w-10 h-10" />,
+		},
+		{
+			id: Math.random(),
+			label: t('sideBar', 'canalYoutube'),
+			href: "/#channel",
+			icon: <TvMinimalPlay className="text-white w-10 h-10" />,
+		},
+		{
+			id: Math.random(),
+			label: t('sideBar', 'contact'),
+			href: "/#contato",
+			icon: <PhoneIcon className="text-white w-10 h-10" />,
+		},
+	]
+
 	return (
 		<Sheet>
 			<SheetTrigger asChild className="p-0 m-0 border-none">
