@@ -12,7 +12,7 @@ import { Checkbox } from "./ui/checkbox";
 import { Textarea } from "./ui/textarea";
 import { formatarNumeroCelular } from "@/hooks/formater";
 import SendEmail from "@/hooks/sendEmail";
-import { Loader2, LoaderCircle } from "lucide-react";
+import { Loader2 } from "lucide-react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 type FormFieldType = {
@@ -48,7 +48,7 @@ export default function Contato() {
 	type FormSchema = z.infer<typeof formSchema>
 
 
-	const { isLoading, onSubmitContato, sucesso } = SendEmail()
+	const { isLoading, onSubmitContato } = SendEmail()
 	const form = useForm<FormSchema>({
 		resolver: zodResolver(formSchema),
 		defaultValues: {

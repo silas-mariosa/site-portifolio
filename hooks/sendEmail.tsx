@@ -5,7 +5,6 @@ import { useTranslations } from "./useTranslations";
 
 export default function useSendEmail() {
     const [isLoading, setIsLoading] = useState(false);
-    const [sucesso, setSucesso] = useState(false);
     const { t } = useTranslations();
 
     const formSchema = z.object({
@@ -25,7 +24,6 @@ export default function useSendEmail() {
     const onSubmitContato = async (formData: FormSchema) => {
         try {
             setIsLoading(true);
-            setSucesso(false);
 
             const validationResult = formSchema.safeParse(formData);
             if (!validationResult.success) {
@@ -54,7 +52,6 @@ export default function useSendEmail() {
                     title: "Sucesso!",
                     description: "Solicitação enviada com sucesso!",
                 });
-                setSucesso(true);
             } else {
                 throw new Error("Erro ao enviar formulário.");
             }
@@ -69,5 +66,5 @@ export default function useSendEmail() {
         }
     };
 
-    return { onSubmitContato, isLoading, sucesso };
+    return { onSubmitContato, isLoading };
 }
