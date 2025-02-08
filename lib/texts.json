@@ -1,9 +1,9 @@
 {
   "headerTitle": {
     "title": {
-      "en": "Header Title",
-      "it-it": "Titolo dell'header",
-      "pt-br": "Título do cabeçalho"
+      "en": "Hi, I'm Silas, Software Engineer and founder of Mariosa Tech, a company specialized in developing innovative digital solutions for companies and businesses.",
+      "it-it": "Ciao, sono Silas, ingegnere informatico e fondatore di Mariosa Tech, azienda specializzata nello sviluppo di soluzioni digitali innovative per aziende e imprese.",
+      "pt-br": "Olá, sou Silas, Engenheiro de Software e fundador da Mariosa Tech, uma empresa especializada no desenvolvimento de soluções digitais inovadoras para empresas e negócios"
     }
   },
   "ChannelComponent": {
@@ -83,26 +83,6 @@
     }
   },
   "Portifolio": {
-    "title": {
-      "en": "Portfolio",
-      "it-it": "Portfolio",
-      "pt-br": "Portfólio"
-    },
-    "description": {
-      "en": "See my projects",
-      "it-it": "Guarda i miei progetti",
-      "pt-br": "Veja meus projetos"
-    },
-    "about": {
-      "en": "Smart Gabinete is a SaaS for managing parliamentary offices, offering demand control, contact organization, event management and customized reports. The platform is intuitive, responsive and includes interactive dashboards, as well as a free 30-day trial.",
-      "it-it": "Smart Gabinete è un SaaS per la gestione degli uffici parlamentari, che offre controllo della domanda, organizzazione dei contatti, gestione degli eventi e report personalizzati. La piattaforma è intuitiva, reattiva e include dashboard interattive, oltre a una prova gratuita di 30 giorni.",
-      "pt-br": "O Smart Gabinete é um SaaS para gestão de gabinetes parlamentares, oferecendo controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. A plataforma é intuitiva, responsiva e inclui dashboards interativos, além de um teste gratuito de 30 dias."
-    },
-    "titleCard": {
-      "en": "Building projects to make an impact",
-      "it-it": "Costruire progetti per avere un impatto",
-      "pt-br": "Construindo projetos para ter um impacto"
-    },
     "buttonMore": {
       "en": "See More",
       "it-it": "vedere di più",
@@ -112,6 +92,111 @@
       "en": "Portfolio",
       "it-it": "Portfolio",
       "pt-br": "Portfólio"
+    },
+    "titleCard": {
+      "en": "Building projects to make an impact",
+      "it-it": "Costruire progetti per avere un impatto",
+      "pt-br": "Construindo projetos para ter um impacto"
+    },
+    "challenge": {
+      "en": "Challenge",
+      "it-it": "Sfida",
+      "pt-br": "Desafio"
+    },
+    "whatsdone": {
+      "en": "What's Done",
+      "it-it": "Cosa è stato fatto",
+      "pt-br": "O que foi feito"
+    },
+    "solution": {
+      "en": "Solution",
+      "it-it": "Soluzione",
+      "pt-br": "Solução"
+    }
+  },
+  "PortifolioSmartGabinete": {
+    "title": {
+      "en": "Smart Gabinete",
+      "it-it": "Smart Gabinete",
+      "pt-br": "Smart Gabinete"
+    },
+    "description": {
+      "en": "Parliamentary Cabinet Management System",
+      "it-it": "Sistema di gestione del gabinetto parlamentare",
+      "pt-br": "Sistema de gerenciamento de gabinete parlamentar"
+    },
+    "about": {
+      "en": "Smart Gabinete is a SaaS for managing parliamentary offices, offering demand control, contact organization, event management and customized reports. The platform is intuitive, responsive and includes interactive dashboards, as well as a free 30-day trial.",
+      "it-it": "Smart Gabinete è un SaaS per la gestione degli uffici parlamentari, che offre controllo della domanda, organizzazione dei contatti, gestione degli eventi e report personalizzati. La piattaforma è intuitiva, reattiva e include dashboard interattive, oltre a una prova gratuita di 30 giorni.",
+      "pt-br": "O Smart Gabinete é um SaaS para gestão de gabinetes parlamentares, oferecendo controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. A plataforma é intuitiva, responsiva e inclui dashboards interativos, além de um teste gratuito de 30 dias."
+    }
+  },
+  "PortifolioFarmaco": {
+    "title": {
+      "en": "Farmaco",
+      "it-it": "Farmaco",
+      "pt-br": "Farmaco"
+    },
+    "description": {
+      "en": "Institutional Website",
+      "it-it": "Sito istituzionale",
+      "pt-br": "Site institucional"
+    },
+    "about": {
+      "en": "The Farmaco website was developed to present the company's solutions in the pharmaceutical industry. The site provides information about products, services, and market trends, ensuring a professional and modern online presence.",
+      "it-it": "Il sito web di Farmaco è stato sviluppato per presentare le soluzioni dell'azienda nel settore farmaceutico. Il sito fornisce informazioni su prodotti, servizi e tendenze di mercato, garantendo una presenza online professionale e moderna.",
+      "pt-br": "O site da Farmaco foi desenvolvido para apresentar as soluções da empresa no setor farmacêutico. O site oferece informações sobre produtos, serviços e tendências de mercado, garantindo uma presença online profissional e moderna."
+    }
+  },
+  "PortifolioAlumiNobre": {
+    "title": {
+      "en": "Alumi Nobre",
+      "it-it": "Alumi Nobre",
+      "pt-br": "Alumi Nobre"
+    },
+    "description": {
+      "en": "Institutional Website",
+      "it-it": "Sito istituzionale",
+      "pt-br": "Site institucional"
+    },
+    "about": {
+      "en": "The Alumi Nobre website was created to showcase the company's expertise. With a clean and modern design, the site highlights Alumi Nobre's solutions, products, and services, reinforcing its market credibility.",
+      "it-it": "Il sito web di Alumi Nobre è stato creato per mostrare l'esperienza dell'azienda. Con un design pulito e moderno, il sito mette in evidenza le soluzioni, i prodotti e i servizi di Alumi Nobre, rafforzandone la credibilità sul mercato.",
+      "pt-br": "O site da Alumi Nobre foi criado para destacar a expertise da empresa. Com um design limpo e moderno, o site apresenta as soluções, produtos e serviços da Alumi Nobre, reforçando sua credibilidade no mercado."
+    }
+  },
+  "PortifolioCometa": {
+    "title": {
+      "en": "Cometa Airlines Virtual",
+      "it-it": "Cometa Airlines Virtual",
+      "pt-br": "Cometa Airlines Virtual"
+    },
+    "description": {
+      "en": "A flight simulation platform for virtual pilots.",
+      "it-it": "Una piattaforma di simulazione di volo per piloti virtuali.",
+      "pt-br": "Uma plataforma de simulação de voo para pilotos virtuais."
+    },
+    "about": {
+      "en": "Flight simulation and community platform.",
+      "it-it": "Piattaforma di simulazione di volo e comunità.",
+      "pt-br": "Plataforma de simulação de voo e comunidade."
+    }
+  },
+  "PortifolioCOOMPA": {
+    "title": {
+      "en": "COOMPA Cooperative Website",
+      "it-it": "Sito Web della Cooperativa COOMPA",
+      "pt-br": "Site da Cooperativa COOMPA"
+    },
+    "description": {
+      "en": "Website showcasing COOMPA's history, products, and services.",
+      "it-it": "Sito web che mostra la storia, i prodotti e i servizi di COOMPA.",
+      "pt-br": "Site que apresenta a história, produtos e serviços da COOMPA."
+    },
+    "about": {
+      "en": "Information about COOMPA's mission and membership.",
+      "it-it": "Informazioni sulla missione di COOMPA e l'iscrizione.",
+      "pt-br": "Informações sobre a missão da COOMPA e adesão."
     }
   },
   "expertise": {
@@ -253,6 +338,16 @@
       "en": "Send",
       "it-it": "Invia",
       "pt-br": "Enviar"
+    },
+    "goDevelopYourProject": {
+      "en": "Let's develop your project?",
+      "it-it": "Sviluppiamo il tuo progetto?",
+      "pt-br": "Vamos desenvolver o seu projeto?"
+    },
+    "sendSolicitation": {
+      "en": "Request a solicitation",
+      "it-it": "Richiedi una richiesta",
+      "pt-br": "Solicitar uma solicitação"
     }
   },
   "sideBar": {
@@ -280,6 +375,158 @@
       "en": "Contact",
       "it-it": "Contatto",
       "pt-br": "Contato"
+    }
+  },
+  "portifolioPage": {
+    "Title": {
+      "en": "Discover the Innovative Portfolio of",
+      "it-it": "Conosci il portafoglio innovativo di",
+      "pt-br": "Conheça o Portfólio Inovador da"
+    },
+    "texto1": {
+      "en": "Com mais de 4 anos de atuação, sou um desenvolvedor apaixonado em dar vida a projetos inovadores para e entregar grandes resultados para empresas já consolidadas no mercado ou para que está procurando inserir sua marca no mundo digital. Além de sites e aplicativos, projetamos ambientes interativos e que contemplem uma ótima experiência ao usuário.",
+      "it-it": "Con più di 4 anni di attività, sono uno sviluppatore appassionato di dare vita a progetti innovativi per e consegnare grandi risultati per le aziende consolidate nel mercato o per quelle che cercano di inserire la loro marca nel mondo digitale. Oltre ai siti web e agli app, progettiamo ambienti interattivi e che contemplino un'ottima esperienza per l'utente.",
+      "pt-br": "Com mais de 4 anos de atuação, sou um desenvolvedor apaixonado em dar vida a projetos inovadores para e entregar grandes resultados para empresas já consolidadas no mercado ou para que está procurando inserir sua marca no mundo digital. Além de sites e aplicativos, projetamos ambientes interativos e que contemplem uma ótima experiência ao usuário."
+    },
+    "texto2": {
+      "en": "Check out below the companies that chose Mariosa Tech to carry out their digital transformation.",
+      "it-it": "Scopri di seguito le aziende che hanno scelto Mariosa Tech per realizzare la loro trasformazione digitale.",
+      "pt-br": "Confira abaixo as empresas que escolheram a Attri para realizar sua transformação digital."
+    }
+  },
+  "smartGabinete": {
+    "title": {
+      "en": "Smart Gabinete",
+      "it-it": "Smart Gabinete",
+      "pt-br": "Smart Gabinete"
+    },
+    "description": {
+      "en": "Smart Gabinete was created to be a complete system for managing parliamentary offices, offering control of demands, organization of contacts, management of events and personalized reports. The platform is intuitive, responsive and includes interactive dashboards.",
+      "it-it": "Smart Gabinete è stato creato per essere un sistema completo per la gestione degli uffici parlamentari, offrendo controllo delle richieste, organizzazione dei contatti, gestione degli eventi e report personalizzati. La piattaforma è intuitiva, reattiva e include dashboard interattive",
+      "pt-br": "A Smart Gabinete nasceu para ser um sistema completo para gerenciar os gabinetes parlamentares, oferecendo controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. A plataforma é intuitiva, responsiva e inclui dashboards interativos."
+    },
+    "challenge": {
+      "en": "Develop a complete and fully responsive SasS, using the most current technologies on the market, such as Next.js. The system needed to deliver all the necessary tools for the parliamentary office management system, such as: demand control, contact organization, event management and customized reports.",
+      "it-it": "Sviluppare un SasS completo e totalmente responsive, utilizzando le tecnologie più attuali sul mercato, come Next.js. Il sistema doveva fornire tutti gli strumenti necessari per la gestione degli uffici parlamentari, quali: controllo delle domande, organizzazione dei contatti, gestione degli eventi e report personalizzati.",
+      "pt-br": "Desenvolver um SasS completo e totalmente reponsivel, utilizando as tecnologias mais atuais do mercado, como o Next.js. Sistema precisava entregar todas as ferramentar necessárias para o sistema de gerenciamento de gabinetes parlamentares, como: controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados."
+    },
+    "whatsdone": {
+      "en": "I created a friendly and fully responsive environment, with a modern and intuitive design. Today, Smart Gabinete delivers everything you need to manage parliamentary offices.",
+      "it-it": "Ho creato un ambiente amichevole e completamente reattivo, con un design moderno e intuitivo. Oggi Smart Gabinete fornisce tutto il necessario per gestire gli uffici parlamentari.",
+      "pt-br": "Criei um ambiente amigavel e totalmente responsivel, com um design moderno e intuitivo. A Smart Gabinete entrega hoje tudo que é necessário para gerenciar os gabinetes parlamentares."
+    },
+    "solution": {
+      "en": "The idea was to provide users with an environment where they could enter all the information generated by the office's day-to-day activities, such as: demands, contacts, events and reports, and have a user-friendly and intuitive interface to access this information. Today, the system has personalized reports, demand control, contact organization, event management and personalized reports. A system for georeferencing supporters and demands. Delivering much more than a simple data management system for a system that helps in the formation of campaign strategies and management of parliamentary offices.",
+      "it-it": "L'idea era quella di fornire agli utenti un ambiente in cui poter inserire tutte le informazioni generate dalle attività quotidiane dell'ufficio, come richieste, contatti, eventi e report, e di disporre di un'interfaccia intuitiva e di facile utilizzo per accedere a queste informazioni. Oggi il sistema dispone di report personalizzati, controllo della domanda, organizzazione dei contatti, gestione degli eventi e report personalizzati. Sistema di georeferenziazione per sostenitori e richieste. Fornire molto più di un semplice sistema di gestione dei dati a un sistema che aiuta nella definizione delle strategie di campagna e nella gestione degli uffici parlamentari.",
+      "pt-br": "A ideia era entregar para os usuários um ambiente onde eles pudessem inserir todas as informações geradas pelo dia a dia do gabinete, como: demandas, contatos, eventos e relatórios e ter uma interface amigavel e intuitiva para acessar essas informações. Hoje o sistema conta com relaórios personalizados, controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. Sistema de georeferenciamento de apoiadores e demandas. Entregando muito mais do que um simples sitema de gerenciamento de dados para um sistema que auxilia na formação de estragégias de campanha e gestão de gabinetes parlamentares."
+    }
+  },
+  "farmaco": {
+    "title": {
+      "en": "Farmaco",
+      "it-it": "Farmaco",
+      "pt-br": "Farmaco"
+    },
+    "description": {
+      "en": "Farmaco is a startup founded in 2021 in São Paulo, Brazil, specializing in providing comprehensive and up-to-date drug information. The platform enables unambiguous identification of pharmaceutical products and facilitates comparison between different market alternatives, assisting healthcare professionals in making informed decisions.",
+      "it-it": "Farmaco è una startup fondata nel 2021 a San Paolo, Brasile, specializzata nella fornitura di informazioni complete e aggiornate sui farmaci. La piattaforma consente l'identificazione univoca dei prodotti farmaceutici e facilita il confronto tra le diverse alternative di mercato, assistendo i professionisti sanitari nel prendere decisioni informate.",
+      "pt-br": "A Farmaco é uma startup fundada em 2021 em São Paulo, Brasil, especializada em fornecer informações completas e atualizadas sobre medicamentos. A plataforma permite a identificação inequívoca de produtos farmacêuticos e facilita a comparação entre diferentes alternativas do mercado, auxiliando profissionais de saúde na tomada de decisões informadas."
+    },
+    "challenge": {
+      "en": "Develop a comprehensive and fully responsive website using the latest market technologies. The site needed to effectively present the platform's features, provide clear contact information, and ensure full responsiveness across various devices.",
+      "it-it": "Sviluppare un sito web completo e completamente reattivo utilizzando le più recenti tecnologie di mercato. Il sito doveva presentare efficacemente le funzionalità della piattaforma, fornire informazioni di contatto chiare e garantire una piena reattività su vari dispositivi.",
+      "pt-br": "Desenvolver um site completo e totalmente responsivo, utilizando as tecnologias mais atuais do mercado. O site precisava apresentar de forma eficaz as funcionalidades da plataforma, fornecer informações de contato claras e garantir total responsividade em diversos dispositivos."
+    },
+    "whatsdone": {
+      "en": "Created a user-friendly and fully responsive website with a modern and intuitive design. The site effectively showcases the platform's capabilities and provides essential information for potential users.",
+      "it-it": "Creato un sito web user-friendly e completamente reattivo con un design moderno e intuitivo. Il sito mostra efficacemente le capacità della piattaforma e fornisce informazioni essenziali per gli utenti potenziali.",
+      "pt-br": "Criei um site amigável e totalmente responsivo, com um design moderno e intuitivo. O site apresenta de forma eficaz as capacidades da plataforma e fornece informações essenciais para potenciais usuários."
+    },
+    "solution": {
+      "en": "The goal was to create an institutional website that clearly communicated Farmaco's purpose and values. The site includes sections detailing the platform's features, information about the company, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
+      "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di Farmaco. Il sito include sezioni che dettagliano le funzionalità della piattaforma, informazioni sull'azienda e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente accattivante per garantire chiarezza e coinvolgimento.",
+      "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da Farmaco. O site inclui seções detalhando as funcionalidades da plataforma, informações sobre a empresa e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
+    }
+  },
+  "coompa": {
+    "title": {
+      "en": "COOMPA Cooperative Website",
+      "it-it": "Sito Web della Cooperativa COOMPA",
+      "pt-br": "Site da Cooperativa COOMPA"
+    },
+    "description": {
+      "en": "The COOMPA website was developed to present the cooperative, its history, products, and services in an intuitive and responsive way. The site provides information about the cooperative's mission, the production process, and how to get in touch or become a member.",
+      "it-it": "Il sito web di COOMPA è stato sviluppato per presentare la cooperativa, la sua storia, i suoi prodotti e servizi in modo intuitivo e reattivo. Il sito fornisce informazioni sulla missione della cooperativa, sul processo di produzione e su come mettersi in contatto o diventare un membro.",
+      "pt-br": "O site da COOMPA foi desenvolvido para apresentar a cooperativa, sua história, produtos e serviços de forma intuitiva e responsiva. O site fornece informações sobre a missão da cooperativa, o processo produtivo e como entrar em contato ou se tornar um associado."
+    },
+    "challenge": {
+      "en": "Create an institutional website that is modern, visually appealing, and easy to navigate. The site needed to highlight the cooperative’s products and provide clear contact information, all while ensuring full responsiveness for mobile and desktop devices.",
+      "it-it": "Creare un sito web istituzionale moderno, visivamente accattivante e facile da navigare. Il sito doveva mettere in evidenza i prodotti della cooperativa e fornire informazioni di contatto chiare, garantendo al contempo una piena reattività per dispositivi mobili e desktop.",
+      "pt-br": "Criar um site institucional moderno, visualmente atraente e de fácil navegação. O site precisava destacar os produtos da cooperativa e fornecer informações de contato claras, garantindo total responsividade para dispositivos móveis e desktop."
+    },
+    "whatsdone": {
+      "en": "I developed a fully responsive website with a modern and clean design, ensuring a smooth user experience. The site effectively presents the cooperative's mission and its range of products.",
+      "it-it": "Ho sviluppato un sito web completamente reattivo con un design moderno e pulito, garantendo un'esperienza utente fluida. Il sito presenta in modo efficace la missione della cooperativa e la sua gamma di prodotti.",
+      "pt-br": "Desenvolvi um site totalmente responsivo, com um design moderno e limpo, garantindo uma experiência do usuário fluida. O site apresenta de forma eficaz a missão da cooperativa e sua variedade de produtos."
+    },
+    "solution": {
+      "en": "The goal was to create an institutional website that clearly communicated COOMPA's purpose and values. The site includes sections for the cooperative's history, product information, a contact page, and a gallery showcasing their production. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
+      "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di COOMPA. Il sito include sezioni sulla storia della cooperativa, informazioni sui prodotti, una pagina di contatto e una galleria che mostra la produzione. È stato utilizzato un layout minimalista e accattivante per garantire chiarezza e coinvolgimento.",
+      "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da COOMPA. O site inclui seções sobre a história da cooperativa, informações sobre os produtos, uma página de contato e uma galeria mostrando a produção. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
+    }
+  },
+  "cometa": {
+    "title": {
+      "en": "Cometa Airlines Virtual",
+      "it-it": "Cometa Airlines Virtuale",
+      "pt-br": "Cometa Airlines Virtual"
+    },
+    "description": {
+      "en": "Cometa Airlines Virtual is a project created for a group of enthusiasts who take flight simulation seriously through Microsoft Flight Simulator 2020. The platform offers a realistic environment for virtual pilots to simulate flights, manage flight plans, and engage with a community of like-minded individuals.",
+      "it-it": "Cometa Airlines Virtual è un progetto creato per un gruppo di appassionati che prendono sul serio la simulazione di volo attraverso Microsoft Flight Simulator 2020. La piattaforma offre un ambiente realistico per i piloti virtuali per simulare voli, gestire piani di volo e interagire con una comunità di persone con interessi simili.",
+      "pt-br": "A Cometa Airlines Virtual é um projeto criado para um grupo de entusiastas que levam a sério a simulação aérea através do Microsoft Flight Simulator 2020. A plataforma oferece um ambiente realista para pilotos virtuais simularem voos, gerenciarem planos de voo e interagirem com uma comunidade de pessoas com interesses semelhantes."
+    },
+    "challenge": {
+      "en": "Develop a comprehensive and fully responsive website using the latest market technologies. The site needed to effectively present the platform's features, provide clear contact information, and ensure full responsiveness across various devices.",
+      "it-it": "Sviluppare un sito web completo e completamente reattivo utilizzando le più recenti tecnologie di mercato. Il sito doveva presentare efficacemente le funzionalità della piattaforma, fornire informazioni di contatto chiare e garantire una piena reattività su vari dispositivi.",
+      "pt-br": "Desenvolver um site completo e totalmente responsivo, utilizando as tecnologias mais atuais do mercado. O site precisava apresentar de forma eficaz as funcionalidades da plataforma, fornecer informações de contato claras e garantir total responsividade em diversos dispositivos."
+    },
+    "whatsdone": {
+      "en": "Created a user-friendly and fully responsive website with a modern and intuitive design. The site effectively showcases the platform's capabilities and provides essential information for potential users.",
+      "it-it": "Creato un sito web user-friendly e completamente reattivo con un design moderno e intuitivo. Il sito mostra efficacemente le capacità della piattaforma e fornisce informazioni essenziali per gli utenti potenziali.",
+      "pt-br": "Criei um site amigável e totalmente responsivo, com um design moderno e intuitivo. O site apresenta de forma eficaz as capacidades da plataforma e fornece informações essenciais para potenciais usuários."
+    },
+    "solution": {
+      "en": "The goal was to create an institutional website that clearly communicated Cometa Airlines Virtual's purpose and values. The site includes sections detailing the platform's features, information about the community, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
+      "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di Cometa Airlines Virtual. Il sito include sezioni che dettagliano le funzionalità della piattaforma, informazioni sulla comunità e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente attraente per garantire chiarezza e coinvolgimento.",
+      "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da Cometa Airlines Virtual. O site inclui seções detalhando as funcionalidades da plataforma, informações sobre a comunidade e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
+    }
+  },
+  "aluminobre": {
+    "title": {
+      "en": "Aluminobre Website",
+      "it-it": "Sito Web di Aluminobre",
+      "pt-br": "Site da Aluminobre"
+    },
+    "description": {
+      "en": "Aluminobre is a company specializing in aluminum frames, tempered glass, boxes, and mirrors. With years of experience and a commitment to quality, the company offers customized solutions for residential and commercial projects.",
+      "it-it": "Aluminobre è un'azienda specializzata in infissi in alluminio, vetro temperato, box e specchi. Con anni di esperienza e un impegno per la qualità, l'azienda offre soluzioni personalizzate per progetti residenziali e commerciali.",
+      "pt-br": "A Aluminobre é uma empresa especializada em esquadrias de alumínio, vidro temperado, boxes e espelhos. Com anos de experiência e compromisso com a qualidade, a empresa oferece soluções personalizadas para projetos residenciais e comerciais."
+    },
+    "challenge": {
+      "en": "Develop an institutional website that is modern, visually appealing, and easy to navigate. The site needed to showcase the company's products and services, provide clear contact information, and ensure full responsiveness across various devices.",
+      "it-it": "Sviluppare un sito web istituzionale moderno, visivamente attraente e facile da navigare. Il sito doveva mostrare i prodotti e i servizi dell'azienda, fornire informazioni di contatto chiare e garantire una piena reattività su vari dispositivi.",
+      "pt-br": "Desenvolver um site institucional moderno, visualmente atraente e de fácil navegação. O site precisava apresentar os produtos e serviços da empresa, fornecer informações de contato claras e garantir total responsividade em diversos dispositivos."
+    },
+    "whatsdone": {
+      "en": "Created a user-friendly and fully responsive website with a modern and intuitive design. The site effectively showcases the company's products and services, providing essential information for potential clients.",
+      "it-it": "Creato un sito web user-friendly e completamente reattivo con un design moderno e intuitivo. Il sito mostra efficacemente i prodotti e i servizi dell'azienda, fornendo informazioni essenziali per i potenziali clienti.",
+      "pt-br": "Criei um site amigável e totalmente responsivo, com um design moderno e intuitivo. O site apresenta de forma eficaz os produtos e serviços da empresa, fornecendo informações essenciais para potenciais clientes."
+    },
+    "solution": {
+      "en": "The goal was to create an institutional website that clearly communicated AlumiNobre's purpose and values. The site includes sections detailing the company's products and services, information about the company, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
+      "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di AlumiNobre. Il sito include sezioni che dettagliano i prodotti e i servizi dell'azienda, informazioni sull'azienda e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente attraente per garantire chiarezza e coinvolgimento.",
+      "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da AlumiNobre. O site inclui seções detalhando os produtos e serviços da empresa, informações sobre a empresa e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
     }
   }
 }

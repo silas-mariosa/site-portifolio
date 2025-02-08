@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": ["PortifolioSmartGabinete", "title"],
+    "description": ["PortifolioSmartGabinete", "description"],
+    "image": "/smartGabinete.png",
+    "abount": ["PortifolioSmartGabinete", "about"]
+  },
+  {
+    "id": 2,
+    "title": ["PortifolioAlumiNobre", "title"],
+    "description": ["PortifolioAlumiNobre", "description"],
+    "image": "/aluminobre.png",
+    "abount": ["PortifolioAlumiNobre", "about"]
+  },
+  {
+    "id": 3,
+    "title": ["PortifolioFarmaco", "title"],
+    "description": ["PortifolioFarmaco", "description"],
+    "image": "/farmaco.png",
+    "abount": ["PortifolioFarmaco", "about"]
+  },
+  {
+    "id": 4,
+    "title": ["PortifolioCometa", "title"],
+    "description": ["PortifolioCometa", "description"],
+    "image": "/cometa.png",
+    "abount": ["PortifolioCometa", "about"]
+  },
+  {
+    "id": 5,
+    "title": ["PortifolioCOOMPA", "title"],
+    "description": ["PortifolioCOOMPA", "description"],
+    "image": "/coompa.png",
+    "abount": ["PortifolioCOOMPA", "about"]
+  }
+]

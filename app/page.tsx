@@ -7,6 +7,7 @@ import ChannelCard from "@/components/channelCard";
 import Contato from "@/components/contato";
 import Expertise from "@/components/expertise";
 import Portifolios from "@/components/portifolios";
+import portifolios from "@/lib/portifolios.json";
 
 export default function Home() {
   return (
@@ -14,7 +15,7 @@ export default function Home() {
       <BannerTop />
       <BannerMid />
       <Atributos />
-      <Portifolios />
+      <Portifolios data={portifolios} isHome={true} />
       <Expertise />
       <ChannelCard />
       <Contato />

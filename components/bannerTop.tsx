@@ -22,7 +22,7 @@ export default function BannerTop() {
 	return (
 		<section className="flex flex-col justify-center items-center p-2 text-white">
 			<div className="flex flex-col mx-[5%] sm:mx-[20%] mt-[10%] gap-2">
-				<h1 className="text-[28px] sm:text-[32px] md:text-[48px] text-center md:text-start">{t('headerTitle', 'title')}</h1>
+				<h1 className="text-[18px] sm:text-[28px] md:text-[32px] xl:text-[48px] md:text-start">{t('headerTitle', 'title')}</h1>
 				<div className="flex flex-row justify-center md:justify-start items-center gap-4 text-white">
 					{
 						social.map((item) => (

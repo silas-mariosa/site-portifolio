@@ -5,9 +5,12 @@ import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from "./ui
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { useTranslations } from "@/hooks/useTranslations";
+import Language from "./language";
+import { useRouter, useParams } from "next/navigation";
 
 export default function AppSidebar() {
 	const { t } = useTranslations()
+	const { push } = useRouter()
 
 	const buttons = [
 		{
@@ -45,30 +48,32 @@ export default function AppSidebar() {
 	return (
 		<Sheet>
 			<SheetTrigger asChild className="p-0 m-0 border-none">
-				<Button asChild variant={"ghost"} className="hover:bg-[#151922]">
+				<Button asChild variant={"ghost"} className="hover:bg-[#8c52ff] hover:text-white">
 					<Menu className="text-[#5271ff] w-10 h-10 hover:text-[#cdffd8] mr-2" />
 				</Button>
 			</SheetTrigger>
-			<SheetContent side={"left"} className="bg-[#151922] text-white w-[200px]">
+			<SheetContent side={"left"} className="bg-[#151922] text-white w-[200px] border-[#8c52ff]">
 				<div className="h-screen overflow-y-auto">
-					<SheetHeader>
-						<div className="flex flex-col items-center">
-							<Image src={''} alt="Logo" width={45} />
-							<h3 className={`font-bold text-lg`}>Mariosa Tech</h3>
-							<div className="flex flex-col gap-2 mx-[5%]">
-								{buttons.map((button) => (
-									<SheetClose asChild key={button.id}>
-										<Button
-											variant={"default"}
-											className="flex flex-row gap-2 text-white w-full justify-start">
-											{button.icon}
-											<a href={button.href}>{button.label}</a>
-										</Button>
-									</SheetClose>
-								))}
-							</div>
+					<div className="flex flex-col items-center gap-6">
+						<div onClick={() => { push('/') }} className="relative w-[100] h-[80px] cursor-pointer">
+							<Image src={'/MariosaLogo.png'} alt="Logo Mariosa Tech" fill className="object-cover"></Image>
 						</div>
-					</SheetHeader>
+						<SheetClose>
+							<Language />
+						</SheetClose>
+						<div className="flex flex-col gap-2 mx-[5%]">
+							{buttons.map((button) => (
+								<SheetClose asChild key={button.id}>
+									<Button
+										variant={"ghost"}
+										className="flex flex-row gap-2 text-white hover:text-[#8c52ff] hover:bg-[#151922] bg-[#151922] w-full justify-start border-none">
+										{button.icon}
+										<a href={button.href}>{button.label}</a>
+									</Button>
+								</SheetClose>
+							))}
+						</div>
+					</div>
 				</div>
 			</SheetContent>
 		</Sheet>
