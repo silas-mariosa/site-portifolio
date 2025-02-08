@@ -3,16 +3,11 @@
 import { Button } from "@/components/ui/button";
 import { useTranslations } from "@/hooks/useTranslations";
 import Image from "next/image";
-import { useRouter } from "next/navigation";
+import { useRouter, useParams } from "next/navigation";
 
-interface Props {
-	params: {
-		id: string;
-	};
-}
 
-export default function Portifolio({ params }: Props) {
-	const id = params.id
+export default function Portifolio() {
+	const id = useParams()
 	const { push } = useRouter()
 	const { t } = useTranslations()
 
@@ -49,9 +44,27 @@ export default function Portifolio({ params }: Props) {
 		},
 	]
 
-	const filteredPortifolio = portifolioData.filter((portifolio) => portifolio.id === parseInt(id))
+	const filteredPortifolio = portifolioData.filter((portifolio) => portifolio.id === Number(id))
 
+	if (!filteredPortifolio || filteredPortifolio.length === 0) {
+		return (
+			<div className="flex flex-col justify-center items-center">
+				<h1 className="font-bold text-[28px] md:text-[36px] xl:text-[48px]">{t(`Portifolio`, 'notFound')}</h1>
+				<Button
+					className="bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6] hover:bg-gradient-to-tr hover:from-[#8c52ff] hover:to-[#5ce1e6] text-white font-semibold w-full"
+					onClick={() => { push('/portifolio') }}
+				>
+					{t(`Portifolio`, 'backToPortifolio')}
+				</Button>
+			</div>
+		)
+	}
 
+	const portifolio = filteredPortifolio[0]
+
+	if (!portifolio) {
+		throw new Error('Portifolio not found')
+	}
 
 	return (
 		<>
@@ -102,7 +115,7 @@ export default function Portifolio({ params }: Props) {
 					</div>
 					<div className="flex justify-center my-[5%] w-full">
 						<div className="flex justify-center px-[5%] sm:px-[10%] lg:px-[20%] py-20 bg-gradient-to-l from-[#8c52ff] to-[#5ce1e6]  rounded-xl">
-							<div className="relative w-[320px] h-[150px] sm:w-[350px] sm:h-[200px] md:w-[500px] md:h-[250]">
+							<div className="relative w-[320px] h-[150px] sm:w-[350px] sm:h-[200px] md:w-[500px] md:h-[250px]">
 								<Image src={portifolio.image2} alt="Notebook" fill className="object-cover"></Image>
 							</div>
 						</div>
@@ -127,7 +140,6 @@ export default function Portifolio({ params }: Props) {
 					</div>
 				</section>
 			))}
-
 		</>
 	)
 }

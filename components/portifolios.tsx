@@ -9,10 +9,10 @@ import { useRouter } from "next/navigation"
 
 interface PortifolioProps {
 	id: number
-	title: [string, string]
-	description: [string, string]
+	title: string[]
+	description: string[]
 	image: string
-	abount: [string, string]
+	abount: string[]
 }
 
 export default function Portifolios({ data, isHome }: { data: PortifolioProps[], isHome?: boolean }) {

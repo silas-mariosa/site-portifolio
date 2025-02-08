@@ -58,7 +58,7 @@ export default function Expertise() {
 				{Expertises.map((expertise) => (
 					<div key={expertise.id} className="flex flex-row gap-4 mb-6">
 						<div>
-							<Image src={expertise.icon} alt={expertise.alt} className="w-12 h-12" />
+							<Image src={expertise.icon} alt={expertise.alt} width={42} height={42} />
 						</div>
 						<div className="flex flex-col">
 							<p className="text-white text-[36px]">{expertise.name}</p>

@@ -12,11 +12,11 @@ import { Checkbox } from "./ui/checkbox";
 import { Textarea } from "./ui/textarea";
 import { formatarNumeroCelular } from "@/hooks/formater";
 import SendEmail from "@/hooks/sendEmail";
-import { LoaderCircle } from "lucide-react";
+import { Loader2, LoaderCircle } from "lucide-react";
 import { useTranslations } from "@/hooks/useTranslations";
 
 type FormFieldType = {
-	id: string;
+	id: "name" | "nameEmpresa" | "email" | "telefone" | "checkBox" | "description" | "term";
 	label: string;
 	type: string;
 	placeholder?: string;
@@ -24,7 +24,6 @@ type FormFieldType = {
 
 export default function Contato() {
 	const { t } = useTranslations()
-
 	const formSchema = z.object({
 		name: z.string().min(2, {
 			message: t('contact', 'formName'),
@@ -40,13 +39,14 @@ export default function Contato() {
 		}),
 		checkBox: z.boolean().default(false),
 		description: z.string().optional(),
-		term: z.boolean().refine((value) => value === true, {
+		term: z.boolean().default(false).refine((value) => value === true, {
 			message: t('contact', 'formTerm'),
 		})
 	});
 
 
 	type FormSchema = z.infer<typeof formSchema>
+
 
 	const { isLoading, onSubmitContato, sucesso } = SendEmail()
 	const form = useForm<FormSchema>({
@@ -105,10 +105,16 @@ export default function Contato() {
 		}
 	]
 
-	function onSubmit(data: FormSchema) {
-		onSubmitContato(data)
-		if (sucesso) {
+	async function onSubmit(data: FormSchema) {
+		try {
+			if (!data) {
+				throw new Error("Form data is undefined or null");
+			}
+
+			await onSubmitContato(data); // Aguarda a resposta antes de continuar
 			form.reset()
+		} catch (error) {
+			console.error("Error in form submission:", error);
 		}
 	}
 	return (
@@ -134,6 +140,7 @@ export default function Contato() {
 											{type === "checkbox" ? (
 												<div className="flex items-center space-x-2">
 													<Checkbox
+														disabled={isLoading}
 														className="border-[#5271ff]"
 														onCheckedChange={field.onChange}
 													/>
@@ -143,16 +150,19 @@ export default function Contato() {
 												</div>
 											) : type === "description" ? (
 												<Textarea
-													lassName="bg-[#d9d9d9] text-[#151922] font-medium min-h-[120px]"
+													disabled={isLoading}
+													className="bg-[#d9d9d9] text-[#151922] font-medium min-h-[120px]"
 													placeholder={placeholder}
-													{...field} />
+													value={field.value === true || field.value === false ? String(field.value) : field.value}
+												/>
 											) : (
 												id === "telefone" ?
 													<Input
+														disabled={isLoading}
 														className="bg-[#d9d9d9] text-[#151922] font-medium"
 														type={type}
 														placeholder={placeholder}
-														{...field}
+														value={typeof field.value === 'boolean' ? String(field.value) : field.value}
 														onChange={(e) => {
 															let numeroFormatado = e.target.value;
 															numeroFormatado = formatarNumeroCelular(
@@ -162,7 +172,14 @@ export default function Contato() {
 														}}
 													/>
 													:
-													<Input className="bg-[#d9d9d9] text-[#151922] font-medium" type={type} placeholder={placeholder} {...field} />
+													<Input
+														disabled={isLoading}
+														{...field}
+														value={typeof field.value === 'boolean' ? String(field.value) : field.value}  // Convert boolean to string
+														className="bg-[#d9d9d9] text-[#151922] font-medium"
+														type={type}
+														placeholder={placeholder}
+													/>
 											)}
 										</FormControl>
 										<FormMessage className="text-red-500 text-xs" />
@@ -174,10 +191,11 @@ export default function Contato() {
 							<Button
 								className="bg-gradient-to-r from-[#8c52ff] to-[#5ce1e6] hover:bg-gradient-to-tr hover:from-[#8c52ff] hover:to-[#5ce1e6] text-white font-semibold w-full"
 								type="submit"
+								disabled={isLoading}
 							>
 								{isLoading ? (
 									<div className="flex items-center justify-center">
-										<LoaderCircle className="h-4 w-4 mr-2" />
+										<Loader2 className="animate-spin h-4 w-4 mr-2" />
 										{t('contact', 'Sending')}
 									</div>
 								) : (

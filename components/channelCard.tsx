@@ -3,21 +3,14 @@
 import { Button } from "./ui/button"
 import { useTranslations } from "@/hooks/useTranslations";
 import Image from "next/image"
+import video from "@/lib/video.json"
 
-const videos = [
-  {
-    id: Math.random(),
-    thumbnail: "https://www.youtube.com/embed/eRvOOgMgPvs"
-  },
-  {
-    id: Math.random(),
-    thumbnail: "https://www.youtube.com/embed/KNNPrXBisa4"
-  },
-  {
-    id: Math.random(),
-    thumbnail: "https://www.youtube.com/embed/F-ootAeT2tA"
-  }
-]
+interface videos {
+  id: string,
+  thumbnail: string,
+}
+
+const videos: videos[] = video
 
 export default function ChannelCard() {
   const { t } = useTranslations();
@@ -30,7 +23,7 @@ export default function ChannelCard() {
           <p className="font-semibold text-center sm:text-start">{t('ChannelComponent', 'Share')}</p>
           <Button variant={'ghost'} className="text-[#5271ff] rounded-none p-0 text-3xl hover:bg-[#151922] hover:text-[#5271ff] pb-4 hover:border-b-4 border-b-[#5271ff]">
             {t('ChannelComponent', 'Go')}
-            <Image src="/foguete.png" alt="foguete" className="w-10 h-10" />
+            <Image src="/foguete.png" alt="foguete" width={30} height={30} />
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center gap-6">
