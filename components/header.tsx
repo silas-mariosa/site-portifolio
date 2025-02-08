@@ -1,7 +1,6 @@
 'use client'
 
 import { useRouter } from "next/navigation";
-import Language from "./language";
 import AppSidebar from "./sideBar";
 import Image from "next/image";
 

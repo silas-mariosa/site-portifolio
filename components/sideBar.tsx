@@ -1,12 +1,12 @@
 'use client'
 
 import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, TvMinimalPlay } from "lucide-react";
-import { Sheet, SheetClose, SheetContent, SheetHeader, SheetTrigger } from "./ui/sheet";
+import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import Image from "next/image";
 import { useTranslations } from "@/hooks/useTranslations";
 import Language from "./language";
-import { useRouter, useParams } from "next/navigation";
+import { useRouter } from "next/navigation";
 
 export default function AppSidebar() {
 	const { t } = useTranslations()

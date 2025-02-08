@@ -5,7 +5,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm } from "react-hook-form";
 
 import { Card } from "./ui/card";
-import { Form, FormControl, FormDescription, FormField, FormItem, FormLabel, FormMessage } from "./ui/form";
+import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "./ui/form";
 import { Button } from "./ui/button";
 import { Input } from "./ui/input";
 import { Checkbox } from "./ui/checkbox";
@@ -140,17 +140,25 @@ export default function Contato() {
 													</div>
 												</div>
 											) : type === "description" ? (
-												<Textarea className="bg-[#d9d9d9] text-[#151922] font-medium min-h-[120px]" placeholder={placeholder} {...field} />
+												<Textarea
+													lassName="bg-[#d9d9d9] text-[#151922] font-medium min-h-[120px]"
+													placeholder={placeholder}
+													{...field} />
 											) : (
 												id === "telefone" ?
-													<Input className="bg-[#d9d9d9] text-[#151922] font-medium" type={type} placeholder={placeholder} {...field}
+													<Input
+														className="bg-[#d9d9d9] text-[#151922] font-medium"
+														type={type}
+														placeholder={placeholder}
+														{...field}
 														onChange={(e) => {
 															let numeroFormatado = e.target.value;
 															numeroFormatado = formatarNumeroCelular(
 																e.target.value
 															);
 															field.onChange(numeroFormatado);
-														}} />
+														}}
+													/>
 													:
 													<Input className="bg-[#d9d9d9] text-[#151922] font-medium" type={type} placeholder={placeholder} {...field} />
 											)}

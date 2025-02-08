@@ -56,7 +56,7 @@ export default function Portifolio({ params }: Props) {
     return (
         <>
             {filteredPortifolio.map((portifolio) => (
-                <section className="flex flex-col justify-center items-center text-[#d9d9d9]">
+                <section key={portifolio.id} className="flex flex-col justify-center items-center text-[#d9d9d9]">
                     <div className="flex justify-center items-center my-14">
                         <h1 className="font-bold text-[28px] md:text-[36px] xl:text-[48px]">{t(`${portifolio.translate}`, 'title')}</h1>
                     </div>

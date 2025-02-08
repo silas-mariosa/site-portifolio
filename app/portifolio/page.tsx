@@ -2,7 +2,6 @@
 
 import Portifolios from "@/components/portifolios"
 import { useTranslations } from "@/hooks/useTranslations"
-import { useRouter } from "next/navigation"
 import portifolio from "@/lib/portifolios.json"
 
 
