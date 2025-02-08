@@ -107,7 +107,9 @@ export default function Contato() {
 
 	function onSubmit(data: FormSchema) {
 		onSubmitContato(data)
-		sucesso && form.reset()
+		if (sucesso) {
+			form.reset()
+		}
 	}
 	return (
 		<section id='contato' className="flex flex-col sm:flex-row justify-center items-start gap-10 p-10">
