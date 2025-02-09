@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { ToastProvider } from "@radix-ui/react-toast";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
