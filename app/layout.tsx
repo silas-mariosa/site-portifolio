@@ -11,6 +11,20 @@ import { Toaster } from "@/components/ui/toaster";
 export const metadata: Metadata = {
   title: "Mariosa Tech - Fulll Stack Developer",
   description: "Developing solutions for your business",
+  openGraph: {
+    title: "Mariosa Tech - Full Stack Developer",
+    description: "Developing solutions for your business",
+    url: "https://www.mariosatech.com.br", // Adicione a URL do seu site
+    images: [
+      {
+        url: "https://www.mariosatech.com.br/_next/image?url=%2FMariosaLogoHorizontal.png&w=1920&q=75", // Caminho da sua logo
+        width: 200,
+        height: 80,
+        alt: "Mariosa Tech Logo",
+      },
+    ],
+    siteName: "Mariosa Tech",
+  },
 };
 
 export default function RootLayout({

@@ -21,9 +21,11 @@ export default function ChannelCard() {
         <div className="flex flex-col justify-center item-center sm:items-start text-white max-w-md gap-6">
           <h3 className="font-bold text-[36px] text-center sm:text-start">{t('ChannelComponent', 'follow')}</h3>
           <p className="font-semibold text-center sm:text-start">{t('ChannelComponent', 'Share')}</p>
-          <Button variant={'ghost'} className="text-[#5271ff] rounded-none p-0 text-3xl hover:bg-[#151922] hover:text-[#5271ff] pb-4 hover:border-b-4 border-b-[#5271ff]">
-            {t('ChannelComponent', 'Go')}
-            <Image src="/foguete.png" alt="foguete" width={30} height={30} />
+          <Button variant={'ghost'} className="text-[#5271ff] rounded-none p-0 text-3xl hover:bg-[#151922] hover:text-[#5271ff] pb-4 hover:border-b-4 border-b-[#5271ff]" asChild>
+            <a href="https://www.youtube.com/@SilasDev">
+              {t('ChannelComponent', 'Go')}
+              <Image src="/foguete.png" alt="foguete" width={30} height={30} />
+            </a>
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center gap-6">

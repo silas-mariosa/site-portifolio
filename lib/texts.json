@@ -15,7 +15,7 @@
     "Share": {
       "en": "I share daily tips on coding, freelancing, personal professional growth, technology news, and business insights.",
       "it-it": "Condivido consigli quotidiani su programmazione, freelancing, crescita professionale personale, notizie tecnologiche e consigli aziendali.",
-      "pt-br": "Eu compartilho dicas diários sobre programação, freelancing, crescimento profissional pessoal, notícias de tecnologia e insights de negócios."
+      "pt-br": "Eu compartilho dicas diárias sobre programação, freelancing, crescimento profissional pessoal, notícias de tecnologia e insights de negócios."
     },
     "Go": {
       "en": "Ir para Youtube",
@@ -30,9 +30,9 @@
       "pt-br": "Design"
     },
     "describeDesign": {
-      "en": "We offer complete design solutions for companies at all stages. Our services range from brand design to the creation of interfaces with strategic design of digital services and products focused on user experience.",
-      "it-it": "Offriamo soluzioni progettuali complete per le aziende in ogni fase. Le nostre realizzazioni spaziano dalla progettazione del marchio alla creazione di interfacce con progettazione strategica di servizi e prodotti digitali incentrati sull'esperienza dell'utente.",
-      "pt-br": "Oferecemos soluções completas de design para empresas em todos os seus estágios. Nossas entregas vão da concepção da marca à criação de interfaces com design estratégico de serviços e produtos digitais focados na experiência do usuário."
+      "en": "We offer the creation of modern and responsive designs for companies at all stages. Our services range from brand design to the development of digital interfaces, with a focus on user experience and solutions that adapt to different devices.",
+      "it-it": "Offriamo un design moderno e reattivo per le aziende in ogni fase. Le nostre realizzazioni spaziano dalla progettazione del marchio allo sviluppo di interfacce digitali, con particolare attenzione all'esperienza utente e a soluzioni che si adattano a diversi dispositivi.",
+      "pt-br": "Oferecemos a criação de designs modernos e responsivos para empresas em todos os seus estágios. Nossas entregas vão desde a concepção de marcas até o desenvolvimento de interfaces digitais, com foco em experiência do usuário e soluções que se adaptam a diferentes dispositivos."
     },
     "nomeMarketing": {
       "en": "Digital Marketing",
@@ -89,7 +89,7 @@
       "pt-br": "Ver Mais"
     },
     "portifolio": {
-      "en": "Portfolio",
+      "en": "Portifolio",
       "it-it": "Portfolio",
       "pt-br": "Portfólio"
     },
@@ -213,7 +213,7 @@
     "ads": {
       "en": "Ads",
       "it-it": "Annunci",
-      "pt-br": "Anuncíos"
+      "pt-br": "Anuncios"
     },
     "webDesign": {
       "en": "Web design",
@@ -391,14 +391,14 @@
       "pt-br": "Conheça o Portfólio Inovador da"
     },
     "texto1": {
-      "en": "Com mais de 4 anos de atuação, sou um desenvolvedor apaixonado em dar vida a projetos inovadores para e entregar grandes resultados para empresas já consolidadas no mercado ou para que está procurando inserir sua marca no mundo digital. Além de sites e aplicativos, projetamos ambientes interativos e que contemplem uma ótima experiência ao usuário.",
-      "it-it": "Con più di 4 anni di attività, sono uno sviluppatore appassionato di dare vita a progetti innovativi per e consegnare grandi risultati per le aziende consolidate nel mercato o per quelle che cercano di inserire la loro marca nel mondo digitale. Oltre ai siti web e agli app, progettiamo ambienti interattivi e che contemplino un'ottima esperienza per l'utente.",
+      "en": "With over 4 years of experience, I am a developer passionate about bringing innovative projects to life and delivering great results for companies that are already established in the market or for those looking to insert their brand in the digital world. In addition to websites and applications, we design interactive environments that provide a great user experience.",
+      "it-it": "Con oltre 4 anni di esperienza, sono uno sviluppatore appassionato che ama dare vita a progetti innovativi e ottenere grandi risultati per aziende già affermate sul mercato o per quelle che desiderano inserire il proprio marchio nel mondo digitale. Oltre a siti web e applicazioni, progettiamo ambienti interattivi che garantiscono un'esperienza utente ottimale.",
       "pt-br": "Com mais de 4 anos de atuação, sou um desenvolvedor apaixonado em dar vida a projetos inovadores para e entregar grandes resultados para empresas já consolidadas no mercado ou para que está procurando inserir sua marca no mundo digital. Além de sites e aplicativos, projetamos ambientes interativos e que contemplem uma ótima experiência ao usuário."
     },
     "texto2": {
       "en": "Check out below the companies that chose Mariosa Tech to carry out their digital transformation.",
       "it-it": "Scopri di seguito le aziende che hanno scelto Mariosa Tech per realizzare la loro trasformazione digitale.",
-      "pt-br": "Confira abaixo as empresas que escolheram a Attri para realizar sua transformação digital."
+      "pt-br": "Confira abaixo as empresas que escolheram a Mariosa Tech para realizar sua transformação digital."
     }
   },
   "smartGabinete": {
