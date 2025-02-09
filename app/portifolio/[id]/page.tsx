@@ -7,7 +7,8 @@ import { useRouter, useParams } from "next/navigation";
 
 
 export default function Portifolio() {
-	const id = useParams()
+	const id = useParams().id
+	console.log('ID', id)
 	const { push } = useRouter()
 	const { t } = useTranslations()
 

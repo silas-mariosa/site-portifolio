@@ -4,11 +4,14 @@ import { ToastProvider } from "@radix-ui/react-toast";
 import { LanguageProvider } from "@/context/LanguageContext";
 import Footer from "@/components/footer";
 import Header from "@/components/header";
+import Whatsapp from "@/components/whatsapp";
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Toaster } from "@/components/ui/toaster";
 
 
 export const metadata: Metadata = {
-  title: "Mariosa Tech",
-  description: "Developed by Mariosa Tech",
+  title: "Mariosa Tech - Fulll Stack Developer",
+  description: "Developing solutions for your business",
 };
 
 export default function RootLayout({
@@ -21,11 +24,12 @@ export default function RootLayout({
     <html lang="en">
       <body className="scroll-smooth">
         <LanguageProvider>
-          <ToastProvider>
-            <Header />
-            {children}
-            <Footer />
-          </ToastProvider>
+          <Header />
+          {children}
+          <Whatsapp />
+          <Footer />
+          <Toaster />
+          <GoogleTagManager gtmId="GTM-P596LZBC" />
         </LanguageProvider>
       </body>
     </html>

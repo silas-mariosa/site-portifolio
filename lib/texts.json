@@ -233,6 +233,13 @@
       "pt-br": "@ 2025 Mariosa Tech. Todos os direitos reservados."
     }
   },
+  "slug": {
+    "button": {
+      "en": "Go to the site",
+      "it-it": "Vai al sito",
+      "pt-br": "Ir para o site"
+    }
+  },
   "contact": {
     "formName": {
       "en": "Name must have at least 2 characters.",
@@ -326,8 +333,8 @@
     },
     "ContatoTitle": {
       "en": "Let's develop your project?",
-      "it-it": "Sviluppiamo il tuo progetto?",
-      "pt-br": "Desenvolvemos seu projeto?"
+      "it-it": "Vogliamo Sviluppare il tuo progetto?",
+      "pt-br": "Vamos desenvolver seu projeto?"
     },
     "Sending": {
       "en": "Sending...",

@@ -55,9 +55,11 @@ export default function AppSidebar() {
 			<SheetContent side={"left"} className="bg-[#151922] text-white w-[200px] border-[#8c52ff]">
 				<div className="h-screen overflow-y-auto">
 					<div className="flex flex-col items-center gap-6">
-						<div onClick={() => { push('/') }} className="relative w-[100] h-[80px] cursor-pointer">
-							<Image src={'/MariosaLogo.png'} alt="Logo Mariosa Tech" fill className="object-cover"></Image>
-						</div>
+						<SheetClose>
+							<div onClick={() => { push('/') }} className="relative w-[50px] h-[50px] cursor-pointer">
+								<Image src={'/logoMariosaTech.png'} alt="Logo Mariosa Tech" fill className="object-cover"></Image>
+							</div>
+						</SheetClose>
 						<SheetClose>
 							<Language />
 						</SheetClose>

@@ -12,7 +12,7 @@ export default function Header() {
                 <AppSidebar />
             </div>
             <header className="flex flex-row justify-center items-center p-2 color-white">
-                <div onClick={() => { push('/') }} className="relative w-[250] h-[80px] cursor-pointer">
+                <div onClick={() => { push('/') }} className="relative w-[200px] h-[60px] sm:w-[250px] sm:h-[80px] cursor-pointer">
                     <Image src={'/MariosaLogoHorizontal.png'} alt="Logo Mariosa Tech" fill className="object-cover"></Image>
                 </div>
             </header>
