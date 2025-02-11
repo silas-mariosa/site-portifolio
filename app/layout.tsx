@@ -42,7 +42,7 @@ export default function RootLayout({
           <Whatsapp />
           <Footer />
           <Toaster />
-          <GoogleTagManager gtmId="GTM-P596LZBC" />
+          <GoogleTagManager gtmId="G-LKHHD7X6N2" />
         </LanguageProvider>
       </body>
     </html>
