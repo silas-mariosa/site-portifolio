@@ -1,6 +1,6 @@
 'use client'
 
-import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, RulerIcon, ShieldXIcon, TvMinimalPlay } from "lucide-react";
+import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, ShieldXIcon, TvMinimalPlay } from "lucide-react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import Image from "next/image";
