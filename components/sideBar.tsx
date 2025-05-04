@@ -1,6 +1,6 @@
 'use client'
 
-import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, TvMinimalPlay } from "lucide-react";
+import { BriefcaseBusiness, CircleFadingPlus, HouseIcon, Menu, PhoneIcon, RulerIcon, ShieldXIcon, TvMinimalPlay } from "lucide-react";
 import { Sheet, SheetClose, SheetContent, SheetTrigger } from "./ui/sheet";
 import { Button } from "./ui/button";
 import Image from "next/image";
@@ -42,7 +42,7 @@ export default function AppSidebar() {
 			label: t('sideBar', 'contact'),
 			href: "/#contato",
 			icon: <PhoneIcon className="text-white w-10 h-10" />,
-		},
+		}
 	]
 
 	return (
@@ -64,16 +64,25 @@ export default function AppSidebar() {
 							<Language />
 						</SheetClose>
 						<div className="flex flex-col gap-2 mx-[5%]">
-							{buttons.map((button) => (
-								<SheetClose asChild key={button.id}>
+							<SheetClose>
+								{buttons.map((button) => (
 									<Button
+										key={button.id}
 										variant={"ghost"}
 										className="flex flex-row gap-2 text-white hover:text-[#8c52ff] hover:bg-[#151922] bg-[#151922] w-full justify-start border-none">
 										{button.icon}
 										<a href={button.href}>{button.label}</a>
 									</Button>
-								</SheetClose>
-							))}
+								))}
+								<Button
+									variant={"ghost"}
+									className="flex flex-row gap-2 text-white hover:text-[#8c52ff] hover:bg-[#151922] bg-[#151922] w-full justify-start border-none"
+									onClick={() => { push('/politics') }}
+								>
+									<ShieldXIcon className="text-white w-10 h-10" />
+									{t('sideBar', 'politics')}
+								</Button>
+							</SheetClose>
 						</div>
 					</div>
 				</div>

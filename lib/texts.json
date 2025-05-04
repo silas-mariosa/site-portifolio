@@ -382,6 +382,11 @@
       "en": "Contact",
       "it-it": "Contatto",
       "pt-br": "Contato"
+    },
+    "politics": {
+      "en": "Privacy Policy",
+      "it-it": "Politica sulla privacy",
+      "pt-br": "Políticas de Privacidade"
     }
   },
   "portifolioPage": {
@@ -399,6 +404,78 @@
       "en": "Check out below the companies that chose Mariosa Tech to carry out their digital transformation.",
       "it-it": "Scopri di seguito le aziende che hanno scelto Mariosa Tech per realizzare la loro trasformazione digitale.",
       "pt-br": "Confira abaixo as empresas que escolheram a Mariosa Tech para realizar sua transformação digital."
+    }
+  },
+  "privacyPage": {
+    "title": {
+      "en": "Privacy Policy",
+      "it-it": "Politica sulla Privacy",
+      "pt-br": "Política de Privacidade"
+    },
+    "intro": {
+      "en": "Your privacy is important to us. This policy explains how we collect, use, and protect your information.",
+      "it-it": "La tua privacy è importante per noi. Questa politica spiega come raccogliamo, utilizziamo e proteggiamo le tue informazioni.",
+      "pt-br": "Sua privacidade é importante para nós. Esta política explica como coletamos, usamos e protegemos suas informações."
+    },
+    "dataCollectionTitle": {
+      "en": "Data Collection",
+      "it-it": "Raccolta dei Dati",
+      "pt-br": "Coleta de Dados"
+    },
+    "dataCollectionText": {
+      "en": "We collect information such as name, email, and phone number only when voluntarily provided.",
+      "it-it": "Raccogliamo informazioni come nome, e-mail e numero di telefono solo quando fornite volontariamente.",
+      "pt-br": "Coletamos informações como nome, e-mail e telefone apenas quando fornecidas voluntariamente."
+    },
+    "dataUsageTitle": {
+      "en": "Use of Information",
+      "it-it": "Utilizzo delle Informazioni",
+      "pt-br": "Uso das Informações"
+    },
+    "dataUsageText": {
+      "en": "We use the data to improve our services and respond to your requests.",
+      "it-it": "Utilizziamo i dati per migliorare i nostri servizi e rispondere alle richieste.",
+      "pt-br": "Usamos os dados para melhorar nossos serviços e responder às suas solicitações."
+    },
+    "cookiesTitle": {
+      "en": "Cookies",
+      "it-it": "Cookie",
+      "pt-br": "Cookies"
+    },
+    "cookiesText": {
+      "en": "We may use cookies to enhance your browsing experience.",
+      "it-it": "Potremmo utilizzare i cookie per migliorare la tua esperienza di navigazione.",
+      "pt-br": "Podemos usar cookies para melhorar sua experiência de navegação."
+    },
+    "thirdPartiesTitle": {
+      "en": "Third-Party Sharing",
+      "it-it": "Condivisione con Terze Parti",
+      "pt-br": "Compartilhamento com Terceiros"
+    },
+    "thirdPartiesText": {
+      "en": "We do not share your data with third parties without your consent.",
+      "it-it": "Non condividiamo i tuoi dati con terze parti senza il tuo consenso.",
+      "pt-br": "Não compartilhamos seus dados com terceiros sem seu consentimento."
+    },
+    "userRightsTitle": {
+      "en": "User Rights",
+      "it-it": "Diritti degli Utenti",
+      "pt-br": "Direitos dos Usuários"
+    },
+    "userRightsText": {
+      "en": "You can request access, correction, or deletion of your personal data at any time.",
+      "it-it": "Puoi richiedere in qualsiasi momento l'accesso, la correzione o la cancellazione dei tuoi dati personali.",
+      "pt-br": "Você pode solicitar acesso, correção ou exclusão dos seus dados pessoais a qualquer momento."
+    },
+    "contactTitle": {
+      "en": "Contact Us",
+      "it-it": "Contattaci",
+      "pt-br": "Entre em Contato"
+    },
+    "contactText": {
+      "en": "If you have any questions about this policy, please reach out through our contact form.",
+      "it-it": "Se hai domande su questa politica, contattaci tramite il nostro modulo di contatto.",
+      "pt-br": "Se você tiver dúvidas sobre esta política, entre em contato através do nosso formulário."
     }
   },
   "smartGabinete": {
