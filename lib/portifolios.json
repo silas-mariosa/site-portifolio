@@ -33,5 +33,12 @@
     "description": ["PortifolioCOOMPA", "description"],
     "image": "/coompa.png",
     "abount": ["PortifolioCOOMPA", "about"]
+  },
+  {
+    "id": 6,
+    "title": ["PortifolioPrimeWoodGlass", "title"],
+    "description": ["PortifolioPrimeWoodGlass", "description"],
+    "image": "/PrimeWoodGlass.png",
+    "abount": ["PortifolioPrimeWoodGlass", "about"]
   }
 ]

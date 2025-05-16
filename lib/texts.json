@@ -199,6 +199,23 @@
       "pt-br": "Informações sobre a missão da COOMPA e adesão."
     }
   },
+  "PortifolioPrimeWoodGlass": {
+    "title": {
+      "en": "Prime Wood Glass Website",
+      "it-it": "Sito Web di Prime Wood Glass",
+      "pt-br": "Site da Prime Wood Glass"
+    },
+    "description": {
+      "en": "Website showcasing Prime Wood Glass's expertise, products, and services.",
+      "it-it": "Sito web che mostra l'esperienza, i prodotti e i servizi di Prime Wood Glass.",
+      "pt-br": "Site que apresenta a expertise, produtos e serviços da Prime Wood Glass."
+    },
+    "about": {
+      "en": "Information about Prime Wood Glass's mission and commitment to quality.",
+      "it-it": "Informazioni sulla missione di Prime Wood Glass e l'impegno per la qualità.",
+      "pt-br": "Informações sobre a missão da Prime Wood Glass e seu compromisso com a qualidade."
+    }
+  },
   "expertise": {
     "name": {
       "en": "4 YEARS",
@@ -611,6 +628,33 @@
       "en": "The goal was to create an institutional website that clearly communicated AlumiNobre's purpose and values. The site includes sections detailing the company's products and services, information about the company, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
       "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di AlumiNobre. Il sito include sezioni che dettagliano i prodotti e i servizi dell'azienda, informazioni sull'azienda e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente attraente per garantire chiarezza e coinvolgimento.",
       "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da AlumiNobre. O site inclui seções detalhando os produtos e serviços da empresa, informações sobre a empresa e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
+    }
+  },
+  "primewoodglass": {
+    "title": {
+      "en": "Prime Wood Glass Website",
+      "it-it": "Sito Web di Prime Wood Glass",
+      "pt-br": "Site da Prime Wood Glass"
+    },
+    "description": {
+      "en": "Prime Wood Glass specializes in aluminum frames, tempered glass, and mirrors. With over a decade of experience, the company offers high-quality, customized solutions for residential and commercial projects.",
+      "it-it": "Prime Wood Glass è specializzata in infissi in alluminio, vetro temperato e specchi. Con oltre un decennio di esperienza, l'azienda offre soluzioni personalizzate di alta qualità per progetti residenziali e commerciali.",
+      "pt-br": "A Prime Wood Glass é especializada em esquadrias de alumínio, vidro temperado e espelhos. Com mais de uma década de experiência, a empresa oferece soluções personalizadas de alta qualidade para projetos residenciais e comerciais."
+    },
+    "challenge": {
+      "en": "Develop a modern, visually appealing, and user-friendly institutional website. The site needed to showcase the company's products and services, provide clear contact information, and ensure full responsiveness across various devices.",
+      "it-it": "Sviluppare un sito web istituzionale moderno, visivamente attraente e facile da navigare. Il sito doveva mostrare i prodotti e i servizi dell'azienda, fornire informazioni di contatto chiare e garantire una piena reattività su vari dispositivi.",
+      "pt-br": "Desenvolver um site institucional moderno, visualmente atraente e de fácil navegação. O site precisava apresentar os produtos e serviços da empresa, fornecer informações de contato claras e garantir total responsividade em diversos dispositivos."
+    },
+    "whatsdone": {
+      "en": "Created a user-friendly and fully responsive website with a modern and intuitive design. The site effectively showcases the company's products and services, providing essential information for potential clients.",
+      "it-it": "Creato un sito web user-friendly e completamente reattivo con un design moderno e intuitivo. Il sito mostra efficacemente i prodotti e i servizi dell'azienda, fornendo informazioni essenziali per i potenziali clienti.",
+      "pt-br": "Criei um site amigável e totalmente responsivo, com um design moderno e intuitivo. O site apresenta de forma eficaz os produtos e serviços da empresa, fornecendo informações essenciais para potenciais clientes."
+    },
+    "solution": {
+      "en": "The goal was to create an institutional website that clearly communicated Prime Wood Glass's purpose and values. The site includes sections detailing the company's products and services, information about the company, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
+      "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di Prime Wood Glass. Il sito include sezioni che dettagliano i prodotti e i servizi dell'azienda, informazioni sull'azienda e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente attraente per garantire chiarezza e coinvolgimento.",
+      "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da Prime Wood Glass. O site inclui seções detalhando os produtos e serviços da empresa, informações sobre a empresa e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
     }
   }
 }

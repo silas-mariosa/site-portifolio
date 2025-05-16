@@ -17,31 +17,43 @@ export default function Portifolio() {
 			id: 1,
 			image: '/smartGabinete.png',
 			translate: 'smartGabinete',
-			image2: '/smartGrabinetePack.png'
+			image2: '/smartGrabinetePack.png',
+			link: 'https://www.smartgabinete.com.br/'
 		},
 		{
 			id: 2,
 			image: '/aluminobre.png',
 			translate: 'aluminobre',
-			image2: '/aluminobrePack.png'
+			image2: '/aluminobrePack.png',
+			link: 'https://www.aluminobre.com.br/'
 		},
 		{
 			id: 3,
 			image: '/farmaco.png',
 			translate: 'farmaco',
-			image2: '/farmacoPack.png'
+			image2: '/farmacoPack.png',
+			link: 'https://farmaco.io/'
 		},
 		{
 			id: 4,
 			image: '/cometa.png',
 			translate: 'cometa',
-			image2: '/cometaPack.png'
+			image2: '/cometaPack.png',
+			link: 'https://projetocometa.vercel.app/'
 		},
 		{
 			id: 5,
 			image: '/coompa.png',
 			translate: 'coompa',
-			image2: '/coompaPack.png'
+			image2: '/coompaPack.png',
+			link: 'https://coompa.com.br/'
+		},
+		{
+			id: 6,
+			image: '/PrimeWoodGlass.png',
+			translate: 'primewoodglass',
+			image2: '/PrimeWoodGlassTelas.png',
+			link: 'https://www.primewoodglass.com/'
 		},
 	]
 
@@ -71,8 +83,17 @@ export default function Portifolio() {
 		<>
 			{filteredPortifolio.map((portifolio) => (
 				<section key={portifolio.id} className="flex flex-col justify-center items-center text-[#d9d9d9]">
-					<div className="flex justify-center items-center my-14">
+					<div className="flex flex-col justify-center items-center my-14">
 						<h1 className="font-bold text-[28px] md:text-[36px] xl:text-[48px]">{t(`${portifolio.translate}`, 'title')}</h1>
+						<p
+							className="relative font-semibold text-[#5271ff] text-lg cursor-pointer
+             after:content-[''] after:absolute after:left-0 after:bottom-0
+             after:w-0 after:h-[3px] after:bg-[#5271ff]
+             after:transition-all after:duration-300 hover:after:w-full"
+							onClick={() => push(portifolio.link)}
+						>
+							Acessar o site
+						</p>
 					</div>
 					<div className="flex flex-col gap-10 justify-center items-center bg-[#151922] px-[5%] md:px-[10%] xl:px-[20%] pb-16">
 						<div className="flex flex-col lg:flex-row gap-20 justify-center items-center py-16">
