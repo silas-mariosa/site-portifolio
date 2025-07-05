@@ -131,38 +131,38 @@
       "pt-br": "O Smart Gabinete é um SaaS para gestão de gabinetes parlamentares, oferecendo controle de demandas, organização de contatos, gerenciamento de eventos e relatórios personalizados. A plataforma é intuitiva, responsiva e inclui dashboards interativos, além de um teste gratuito de 30 dias."
     }
   },
-  "PortifolioFarmaco": {
+  "PortifolioCentercar": {
     "title": {
-      "en": "Farmaco",
-      "it-it": "Farmaco",
-      "pt-br": "Farmaco"
+      "en": "Center Car CRM",
+      "it-it": "CRM Center Car",
+      "pt-br": "CRM Center Car"
     },
     "description": {
-      "en": "Institutional Website",
-      "it-it": "Sito istituzionale",
-      "pt-br": "Site institucional"
+      "en": "Custom CRM for Vehicle Dealership",
+      "it-it": "CRM personalizzato per concessionaria di veicoli",
+      "pt-br": "CRM personalizado para loja de veículos"
     },
     "about": {
-      "en": "The Farmaco website was developed to present the company's solutions in the pharmaceutical industry. The site provides information about products, services, and market trends, ensuring a professional and modern online presence.",
-      "it-it": "Il sito web di Farmaco è stato sviluppato per presentare le soluzioni dell'azienda nel settore farmaceutico. Il sito fornisce informazioni su prodotti, servizi e tendenze di mercato, garantendo una presenza online professionale e moderna.",
-      "pt-br": "O site da Farmaco foi desenvolvido para apresentar as soluções da empresa no setor farmacêutico. O site oferece informações sobre produtos, serviços e tendências de mercado, garantindo uma presença online profissional e moderna."
+      "en": "The Center Car CRM was developed to modernize and digitize the operations of a vehicle dealership. The project emerged from meetings with the business to understand its internal processes and needs. The system was designed to streamline customer registration, vehicle management, proposals, and sales follow-up, ensuring more agility and organization in daily operations.",
+      "it-it": "Il CRM Center Car è stato sviluppato per modernizzare e digitalizzare le operazioni di una concessionaria di veicoli. Il progetto è nato da riunioni con l'azienda per comprendere i suoi processi e bisogni interni. Il sistema è stato progettato per semplificare la registrazione dei clienti, la gestione dei veicoli, le proposte e il follow-up delle vendite, garantendo maggiore agilità e organizzazione nelle attività quotidiane.",
+      "pt-br": "O CRM da Center Car foi desenvolvido para modernizar e digitalizar as operações de uma loja de veículos. O projeto surgiu após reuniões com a empresa para entender seus processos internos e necessidades reais. O sistema foi pensado para facilitar o cadastro de clientes, gerenciamento de veículos, propostas e acompanhamento de vendas, garantindo mais agilidade e organização no dia a dia."
     }
   },
-  "PortifolioAlumiNobre": {
+  "PortifolioEconomizatudo": {
     "title": {
-      "en": "Alumi Nobre",
-      "it-it": "Alumi Nobre",
-      "pt-br": "Alumi Nobre"
+      "en": "Economiza Tudo",
+      "it-it": "Economiza Tudo",
+      "pt-br": "Economiza Tudo"
     },
     "description": {
-      "en": "Institutional Website",
-      "it-it": "Sito istituzionale",
-      "pt-br": "Site institucional"
+      "en": "SaaS platform for intuitive and complete financial control",
+      "it-it": "Piattaforma SaaS per un controllo finanziario completo e intuitivo",
+      "pt-br": "Plataforma SaaS para controle financeiro completo e intuitivo"
     },
     "about": {
-      "en": "The Alumi Nobre website was created to showcase the company's expertise. With a clean and modern design, the site highlights Alumi Nobre's solutions, products, and services, reinforcing its market credibility.",
-      "it-it": "Il sito web di Alumi Nobre è stato creato per mostrare l'esperienza dell'azienda. Con un design pulito e moderno, il sito mette in evidenza le soluzioni, i prodotti e i servizi di Alumi Nobre, rafforzandone la credibilità sul mercato.",
-      "pt-br": "O site da Alumi Nobre foi criado para destacar a expertise da empresa. Com um design limpo e moderno, o site apresenta as soluções, produtos e serviços da Alumi Nobre, reforçando sua credibilidade no mercado."
+      "en": "Economiza Tudo is a SaaS developed to provide a complete yet simple-to-use solution to help users manage their finances. It allows you to track income, expenses, goals, transfers, and reports through a clean and responsive interface. Built to be scalable, it adapts to both personal and small business use. Visit: www.economizatudo.com.br",
+      "it-it": "Economiza Tudo è un SaaS sviluppato per offrire una soluzione completa ma semplice da usare per aiutare gli utenti a gestire le proprie finanze. Permette di monitorare entrate, uscite, obiettivi, trasferimenti e report tramite un'interfaccia pulita e reattiva. Progettato per essere scalabile, si adatta all'uso personale e aziendale. Visita: www.economizatudo.com.br",
+      "pt-br": "O Economiza Tudo é um SaaS desenvolvido para oferecer uma solução completa e fácil de usar para ajudar o usuário a gerenciar suas finanças. Permite controlar receitas, despesas, metas, transferências e relatórios por meio de uma interface limpa e responsiva. Construído para ser escalável, atende tanto uso pessoal quanto de pequenos negócios. Acesse: www.economizatudo.com.br"
     }
   },
   "PortifolioCometa": {
@@ -214,6 +214,40 @@
       "en": "Information about Prime Wood Glass's mission and commitment to quality.",
       "it-it": "Informazioni sulla missione di Prime Wood Glass e l'impegno per la qualità.",
       "pt-br": "Informações sobre a missão da Prime Wood Glass e seu compromisso com a qualidade."
+    }
+  },
+  "PortifolioFarmaco": {
+    "title": {
+      "en": "Farmaco",
+      "it-it": "Farmaco",
+      "pt-br": "Farmaco"
+    },
+    "description": {
+      "en": "Institutional Website",
+      "it-it": "Sito istituzionale",
+      "pt-br": "Site institucional"
+    },
+    "about": {
+      "en": "The Farmaco website was developed to present the company's solutions in the pharmaceutical industry. The site provides information about products, services, and market trends, ensuring a professional and modern online presence.",
+      "it-it": "Il sito web di Farmaco è stato sviluppato per presentare le soluzioni dell'azienda nel settore farmaceutico. Il sito fornisce informazioni su prodotti, servizi e tendenze di mercato, garantendo una presenza online professionale e moderna.",
+      "pt-br": "O site da Farmaco foi desenvolvido para apresentar as soluções da empresa no setor farmacêutico. O site oferece informações sobre produtos, serviços e tendências de mercado, garantindo uma presença online profissional e moderna."
+    }
+  },
+  "PortifolioAlumiNobre": {
+    "title": {
+      "en": "Alumi Nobre",
+      "it-it": "Alumi Nobre",
+      "pt-br": "Alumi Nobre"
+    },
+    "description": {
+      "en": "Institutional Website",
+      "it-it": "Sito istituzionale",
+      "pt-br": "Site institucional"
+    },
+    "about": {
+      "en": "The Alumi Nobre website was created to showcase the company's expertise. With a clean and modern design, the site highlights Alumi Nobre's solutions, products, and services, reinforcing its market credibility.",
+      "it-it": "Il sito web di Alumi Nobre è stato creato per mostrare l'esperienza dell'azienda. Con un design pulito e moderno, il sito mette in evidenza le soluzioni, i prodotti e i servizi di Alumi Nobre, rafforzandone la credibilità sul mercato.",
+      "pt-br": "O site da Alumi Nobre foi criado para destacar a expertise da empresa. Com um design limpo e moderno, o site apresenta as soluções, produtos e serviços da Alumi Nobre, reforçando sua credibilidade no mercado."
     }
   },
   "expertise": {
@@ -655,6 +689,60 @@
       "en": "The goal was to create an institutional website that clearly communicated Prime Wood Glass's purpose and values. The site includes sections detailing the company's products and services, information about the company, and a contact page. A minimalist and visually appealing layout was used to ensure clarity and engagement.",
       "it-it": "L'obiettivo era creare un sito web istituzionale che comunicasse chiaramente lo scopo e i valori di Prime Wood Glass. Il sito include sezioni che dettagliano i prodotti e i servizi dell'azienda, informazioni sull'azienda e una pagina di contatto. È stato utilizzato un layout minimalista e visivamente attraente per garantire chiarezza e coinvolgimento.",
       "pt-br": "O objetivo foi criar um site institucional que comunicasse claramente o propósito e os valores da Prime Wood Glass. O site inclui seções detalhando os produtos e serviços da empresa, informações sobre a empresa e uma página de contato. Foi utilizado um layout minimalista e visualmente atraente para garantir clareza e engajamento."
+    }
+  },
+  "centercar": {
+    "title": {
+      "en": "Center Car CRM System",
+      "it-it": "Sistema CRM per Center Car",
+      "pt-br": "Sistema de CRM da Center Car"
+    },
+    "description": {
+      "en": "Center Car is a vehicle sales company that needed a modern and tailored CRM to improve internal processes and customer relationship management. The project was designed to address their specific operational needs and support business modernization.",
+      "it-it": "Center Car è un'azienda di vendita veicoli che necessitava di un CRM moderno e su misura per migliorare i processi interni e la gestione delle relazioni con i clienti. Il progetto è stato progettato per soddisfare le esigenze operative specifiche e supportare la modernizzazione aziendale.",
+      "pt-br": "A Center Car é uma empresa de venda de veículos que precisava de um CRM moderno e sob medida para melhorar os processos internos e a gestão do relacionamento com os clientes. O projeto foi desenvolvido para atender às necessidades operacionais específicas e apoiar a modernização da empresa."
+    },
+    "challenge": {
+      "en": "Understand the business's internal workflows through meetings and develop a CRM system that modernizes operations, centralizes customer and vehicle data, and enhances efficiency and decision-making.",
+      "it-it": "Comprendere i flussi di lavoro interni dell'azienda attraverso riunioni e sviluppare un sistema CRM che modernizzi le operazioni, centralizzi i dati di clienti e veicoli e migliori l'efficienza e il processo decisionale.",
+      "pt-br": "Entender os fluxos internos do negócio por meio de reuniões e desenvolver um sistema de CRM que modernizasse as operações, centralizasse dados de clientes e veículos e aumentasse a eficiência e a tomada de decisões."
+    },
+    "whatsdone": {
+      "en": "Conducted planning meetings to gather requirements, then designed and developed a complete CRM platform tailored to Center Car's operations. The system includes modules for customer management, vehicle inventory, sales pipeline, and reporting.",
+      "it-it": "Sono state condotte riunioni di pianificazione per raccogliere i requisiti, quindi è stata progettata e sviluppata una piattaforma CRM completa su misura per le operazioni di Center Car. Il sistema include moduli per la gestione dei clienti, l'inventario dei veicoli, il ciclo di vendita e la reportistica.",
+      "pt-br": "Realizei reuniões de planejamento para levantar os requisitos e, em seguida, desenhei e desenvolvi uma plataforma de CRM completa, adaptada às operações da Center Car. O sistema inclui módulos para gestão de clientes, estoque de veículos, funil de vendas e relatórios."
+    },
+    "solution": {
+      "en": "The CRM solution was built to be intuitive, scalable, and aligned with the company's workflow. It centralizes information, reduces manual tasks, and provides insights through reports. The project marked a significant digital transformation for Center Car.",
+      "it-it": "La soluzione CRM è stata costruita per essere intuitiva, scalabile e allineata ai flussi di lavoro dell'azienda. Centralizza le informazioni, riduce le attività manuali e fornisce approfondimenti attraverso report. Il progetto ha segnato una trasformazione digitale significativa per Center Car.",
+      "pt-br": "A solução de CRM foi construída para ser intuitiva, escalável e alinhada ao fluxo de trabalho da empresa. Centraliza as informações, reduz tarefas manuais e fornece insights por meio de relatórios. O projeto representou uma transformação digital significativa para a Center Car."
+    }
+  },
+  "economizatudo": {
+    "title": {
+      "en": "Economiza Tudo – Financial Management SaaS",
+      "it-it": "Economiza Tudo – SaaS per la Gestione Finanziaria",
+      "pt-br": "Economiza Tudo – Plataforma de Gestão Financeira"
+    },
+    "description": {
+      "en": "Economiza Tudo is a SaaS platform developed to help users take control of their personal or business finances in an intuitive and organized way. The system combines simplicity with powerful features to make financial management accessible to everyone.",
+      "it-it": "Economiza Tudo è una piattaforma SaaS sviluppata per aiutare gli utenti a gestire le proprie finanze personali o aziendali in modo intuitivo e organizzato. Il sistema combina semplicità e funzionalità potenti per rendere la gestione finanziaria accessibile a tutti.",
+      "pt-br": "O Economiza Tudo é uma plataforma SaaS desenvolvida para ajudar o usuário a assumir o controle das suas finanças pessoais ou empresariais de forma intuitiva e organizada. O sistema alia simplicidade com funcionalidades poderosas para tornar o controle financeiro acessível a todos."
+    },
+    "challenge": {
+      "en": "Create a complete and scalable SaaS focused on user experience, capable of organizing income, expenses, goals, transfers, and reports — all while being simple and easy to use on desktop and mobile.",
+      "it-it": "Creare un SaaS completo e scalabile incentrato sull'esperienza utente, in grado di organizzare entrate, uscite, obiettivi, trasferimenti e report — tutto in modo semplice e facile da usare su desktop e dispositivi mobili.",
+      "pt-br": "Criar um SaaS completo e escalável focado na experiência do usuário, capaz de organizar receitas, despesas, metas, transferências e relatórios — tudo de forma simples e fácil de usar tanto no desktop quanto no celular."
+    },
+    "whatsdone": {
+      "en": "Designed and developed the entire platform, including modules for accounts, categories, subcategories, goals, transactions, reports, and transfers. Implemented responsive UI, user authentication, and multi-device access to ensure a seamless experience.",
+      "it-it": "Progettata e sviluppata l'intera piattaforma, inclusi moduli per conti, categorie, sottocategorie, obiettivi, transazioni, report e trasferimenti. Implementata un'interfaccia reattiva, autenticazione utente e accesso multi-dispositivo per garantire un'esperienza fluida.",
+      "pt-br": "Desenvolvi toda a plataforma, incluindo módulos de contas, categorias, subcategorias, metas, transações, relatórios e transferências. Implementei uma interface responsiva, autenticação de usuários e acesso multi-dispositivo para uma experiência fluida."
+    },
+    "solution": {
+      "en": "The result is a clean, user-friendly, and powerful financial control platform. Economiza Tudo helps users visualize their financial health, track their goals, and make smarter decisions. The SaaS continues to evolve with new features based on user feedback.",
+      "it-it": "Il risultato è una piattaforma di controllo finanziario pulita, facile da usare e potente. Economiza Tudo aiuta gli utenti a visualizzare la loro salute finanziaria, monitorare i loro obiettivi e prendere decisioni più intelligenti. Il SaaS continua a evolversi con nuove funzionalità basate sul feedback degli utenti.",
+      "pt-br": "O resultado é uma plataforma de controle financeiro limpa, fácil de usar e poderosa. O Economiza Tudo ajuda o usuário a visualizar sua saúde financeira, acompanhar suas metas e tomar decisões mais inteligentes. A plataforma continua evoluindo com novas funcionalidades baseadas no feedback dos usuários."
     }
   }
 }

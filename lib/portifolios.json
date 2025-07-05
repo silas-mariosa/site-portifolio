@@ -8,17 +8,17 @@
   },
   {
     "id": 2,
-    "title": ["PortifolioAlumiNobre", "title"],
-    "description": ["PortifolioAlumiNobre", "description"],
-    "image": "/aluminobre.png",
-    "abount": ["PortifolioAlumiNobre", "about"]
+    "title": ["PortifolioCentercar", "title"],
+    "description": ["PortifolioCentercar", "description"],
+    "image": "/centercar.png",
+    "abount": ["PortifolioCentercar", "about"]
   },
   {
     "id": 3,
-    "title": ["PortifolioFarmaco", "title"],
-    "description": ["PortifolioFarmaco", "description"],
-    "image": "/farmaco.png",
-    "abount": ["PortifolioFarmaco", "about"]
+    "title": ["PortifolioEconomizatudo", "title"],
+    "description": ["PortifolioEconomizatudo", "description"],
+    "image": "/economizatudo.png",
+    "abount": ["PortifolioEconomizatudo", "about"]
   },
   {
     "id": 4,
@@ -40,5 +40,19 @@
     "description": ["PortifolioPrimeWoodGlass", "description"],
     "image": "/PrimeWoodGlass.png",
     "abount": ["PortifolioPrimeWoodGlass", "about"]
+  },
+  {
+    "id": 7,
+    "title": ["PortifolioAlumiNobre", "title"],
+    "description": ["PortifolioAlumiNobre", "description"],
+    "image": "/aluminobre.png",
+    "abount": ["PortifolioAlumiNobre", "about"]
+  },
+  {
+    "id": 8,
+    "title": ["PortifolioFarmaco", "title"],
+    "description": ["PortifolioFarmaco", "description"],
+    "image": "/farmaco.png",
+    "abount": ["PortifolioFarmaco", "about"]
   }
 ]

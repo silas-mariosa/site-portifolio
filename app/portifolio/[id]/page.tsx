@@ -22,17 +22,17 @@ export default function Portifolio() {
 		},
 		{
 			id: 2,
-			image: '/aluminobre.png',
-			translate: 'aluminobre',
-			image2: '/aluminobrePack.png',
-			link: 'https://www.aluminobre.com.br/'
+			image: '/centercar.png',
+			translate: 'centercar',
+			image2: '/centercarPack.png',
+			link: 'https://www.centercar.com.br/'
 		},
 		{
 			id: 3,
-			image: '/farmaco.png',
-			translate: 'farmaco',
-			image2: '/farmacoPack.png',
-			link: 'https://farmaco.io/'
+			image: '/economizatudo.png',
+			translate: 'economizatudo',
+			image2: '/economizatudoPack.png',
+			link: 'https://www.economizatudo.com.br/'
 		},
 		{
 			id: 4,
@@ -54,6 +54,20 @@ export default function Portifolio() {
 			translate: 'primewoodglass',
 			image2: '/PrimeWoodGlassTelas.png',
 			link: 'https://www.primewoodglass.com/'
+		},
+		{
+			id: 7,
+			image: '/aluminobre.png',
+			translate: 'aluminobre',
+			image2: '/aluminobrePack.png',
+			link: 'https://www.aluminobre.com.br/'
+		},
+		{
+			id: 8,
+			image: '/farmaco.png',
+			translate: 'farmaco',
+			image2: '/farmacoPack.png',
+			link: 'https://farmaco.io/'
 		},
 	]
 
