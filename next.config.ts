@@ -1,10 +1,7 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-module.exports = {
+  output: 'standalone', // Necessário para Docker
   images: {
     domains: ["icon-icons.com"], // Permite imagens do domínio 'icon-icons.com'
   },
