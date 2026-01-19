@@ -233,6 +233,23 @@
       "pt-br": "O site da Farmaco foi desenvolvido para apresentar as soluções da empresa no setor farmacêutico. O site oferece informações sobre produtos, serviços e tendências de mercado, garantindo uma presença online profissional e moderna."
     }
   },
+  "PortifolioPuroSabor": {
+    "title": {
+      "en": "Puro Sabor Confeitaria – Online Sales Platform",
+      "it-it": "Puro Sabor Confeitaria – Piattaforma di Vendita Online",
+      "pt-br": "Puro Sabor Confeitaria – Plataforma de Vendas Online"
+    },
+    "description": {
+      "en": "Complete e-commerce system for confectionery",
+      "it-it": "Sistema e-commerce completo per pasticceria",
+      "pt-br": "Sistema completo de e-commerce para confeitaria"
+    },
+    "about": {
+      "en": "I developed a complete system for Puro Sabor Confeitaria, a bakery and confectionery company that needed to digitalize its sales process and offer a fast, secure, and user-friendly purchasing experience for its customers. The project included a responsive front-end, administrative panel, secure back-end, and WhatsApp integration.",
+      "it-it": "Ho sviluppato un sistema completo per Puro Sabor Confeitaria, un'azienda di pasticceria che aveva la necessità di digitalizzare il proprio processo di vendita e offrire ai clienti un'esperienza di acquisto rapida, sicura e intuitiva. Il progetto ha incluso sviluppo front-end responsive, pannello amministrativo, back-end sicuro e integrazione con WhatsApp.",
+      "pt-br": "Desenvolvi um sistema completo para a Puro Sabor Confeitaria, uma confeitaria especializada em bolos, docinhos e salgados que precisava digitalizar seu processo de vendas e oferecer uma experiência de compra rápida, segura e eficiente para seus clientes. O projeto contemplou front-end responsivo, painel administrativo, back-end funcional e seguro, e integração com WhatsApp."
+    }
+  },
   "PortifolioAlumiNobre": {
     "title": {
       "en": "Alumi Nobre",
@@ -743,6 +760,33 @@
       "en": "The result is a clean, user-friendly, and powerful financial control platform. Economiza Tudo helps users visualize their financial health, track their goals, and make smarter decisions. The SaaS continues to evolve with new features based on user feedback.",
       "it-it": "Il risultato è una piattaforma di controllo finanziario pulita, facile da usare e potente. Economiza Tudo aiuta gli utenti a visualizzare la loro salute finanziaria, monitorare i loro obiettivi e prendere decisioni più intelligenti. Il SaaS continua a evolversi con nuove funzionalità basate sul feedback degli utenti.",
       "pt-br": "O resultado é uma plataforma de controle financeiro limpa, fácil de usar e poderosa. O Economiza Tudo ajuda o usuário a visualizar sua saúde financeira, acompanhar suas metas e tomar decisões mais inteligentes. A plataforma continua evoluindo com novas funcionalidades baseadas no feedback dos usuários."
+    }
+  },
+  "puroSabor": {
+    "title": {
+      "en": "Puro Sabor Confeitaria – Online Sales Platform",
+      "it-it": "Puro Sabor Confeitaria – Piattaforma di Vendita Online",
+      "pt-br": "Puro Sabor Confeitaria – Plataforma de Vendas Online"
+    },
+    "description": {
+      "en": "I developed a complete system for Puro Sabor Confeitaria, a bakery and confectionery company that needed to digitalize its sales process and offer a fast, secure, and user-friendly purchasing experience for its customers.",
+      "it-it": "Ho sviluppato un sistema completo per Puro Sabor Confeitaria, un'azienda di pasticceria che aveva la necessità di digitalizzare il proprio processo di vendita e offrire ai clienti un'esperienza di acquisto rapida, sicura e intuitiva.",
+      "pt-br": "Desenvolvi um sistema completo para a Puro Sabor Confeitaria, uma confeitaria especializada em bolos, docinhos e salgados que precisava digitalizar seu processo de vendas e oferecer uma experiência de compra rápida, segura e eficiente para seus clientes."
+    },
+    "challenge": {
+      "en": "Develop a complete e-commerce system to digitalize the sales process of a confectionery business, offering customers a fast, secure, and efficient purchasing experience while automating the sales flow and reducing the workload on the support team.",
+      "it-it": "Sviluppare un sistema e-commerce completo per digitalizzare il processo di vendita di un'attività di pasticceria, offrendo ai clienti un'esperienza di acquisto rapida, sicura ed efficiente automatizzando il flusso di vendita e riducendo il carico di lavoro del team di supporto.",
+      "pt-br": "Digitalizar o processo de vendas de uma confeitaria e oferecer uma experiência de compra rápida, segura e eficiente para os clientes, automatizando o fluxo de vendas e reduzindo a carga de trabalho da equipe de atendentes."
+    },
+    "whatsdone": {
+      "en": "Created a responsive front-end with a modern and intuitive interface, a robust administrative dashboard for managing products and orders, a secure and functional back-end architecture, and seamless WhatsApp integration for order confirmations and customer communication.",
+      "it-it": "Creato un front-end responsive con un'interfaccia moderna e intuitiva, una dashboard amministrativa solida per la gestione di prodotti e ordini, un'architettura back-end sicura e funzionale, e un'integrazione diretta con WhatsApp per conferme d'ordine e comunicazione con i clienti.",
+      "pt-br": "Desenvolvi um front-end responsivo com interface moderna e intuitiva, painel administrativo robusto para gerenciar produtos e pedidos, back-end funcional e seguro, e integração com WhatsApp para envio de confirmações e notificações de pedido."
+    },
+    "solution": {
+      "en": "The result was a complete e-commerce solution tailored for the confectionery industry that transformed Puro Sabor's operations, improved customer experience, and automated a significant portion of the sales flow. This allowed the team to be less overloaded while customers could purchase quickly and securely.",
+      "it-it": "Il risultato è stata una soluzione e-commerce completa, pensata specificamente per il settore della pasticceria, che ha ottimizzato i processi interni, migliorato l'esperienza del cliente e permesso acquisti rapidi e sicuri, alleggerendo il lavoro del team operativo.",
+      "pt-br": "O resultado foi uma solução completa de e-commerce para o segmento de confeitaria, que transformou a operação da Puro Sabor, melhorou a experiência dos clientes e automatizou boa parte do fluxo de vendas — permitindo que a equipe ficasse menos sobrecarregada e clientes comprassem de forma mais rápida e segura."
     }
   }
 }

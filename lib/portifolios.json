@@ -54,5 +54,12 @@
     "description": ["PortifolioFarmaco", "description"],
     "image": "/farmaco.png",
     "abount": ["PortifolioFarmaco", "about"]
+  },
+  {
+    "id": 9,
+    "title": ["PortifolioPuroSabor", "title"],
+    "description": ["PortifolioPuroSabor", "description"],
+    "image": "/computador puro sabor.png",
+    "abount": ["PortifolioPuroSabor", "about"]
   }
 ]

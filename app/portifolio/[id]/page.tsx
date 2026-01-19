@@ -69,6 +69,13 @@ export default function Portifolio() {
 			image2: '/farmacoPack.png',
 			link: 'https://farmaco.io/'
 		},
+		{
+			id: 9,
+			image: '/notebook puro sabor.png',
+			translate: 'puroSabor',
+			image2: '/computador puro sabor.png',
+			link: 'https://purosaborconfeitaria.com/'
+		},
 	]
 
 	const filteredPortifolio = portifolioData.filter((portifolio) => portifolio.id === Number(id))
