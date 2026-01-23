@@ -1,0 +1,4 @@
+# Configuração para Easypanel usar Dockerfile
+build:
+  type: dockerfile
+  dockerfile: Dockerfile
