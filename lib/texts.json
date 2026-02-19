@@ -235,9 +235,9 @@
   },
   "PortifolioPuroSabor": {
     "title": {
-      "en": "Puro Sabor Confeitaria – Online Sales Platform",
-      "it-it": "Puro Sabor Confeitaria – Piattaforma di Vendita Online",
-      "pt-br": "Puro Sabor Confeitaria – Plataforma de Vendas Online"
+      "en": "Puro Sabor Confeitaria",
+      "it-it": "Puro Sabor Confeitari",
+      "pt-br": "Puro Sabor Confeitaria"
     },
     "description": {
       "en": "Complete e-commerce system for confectionery",
@@ -265,6 +265,23 @@
       "en": "The Alumi Nobre website was created to showcase the company's expertise. With a clean and modern design, the site highlights Alumi Nobre's solutions, products, and services, reinforcing its market credibility.",
       "it-it": "Il sito web di Alumi Nobre è stato creato per mostrare l'esperienza dell'azienda. Con un design pulito e moderno, il sito mette in evidenza le soluzioni, i prodotti e i servizi di Alumi Nobre, rafforzandone la credibilità sul mercato.",
       "pt-br": "O site da Alumi Nobre foi criado para destacar a expertise da empresa. Com um design limpo e moderno, o site apresenta as soluções, produtos e serviços da Alumi Nobre, reforçando sua credibilidade no mercado."
+    }
+  },
+  "PortifolioBalaiocriativos": {
+    "title": {
+      "en": "Balaio Criativos",
+      "it-it": "Balaio Criativos",
+      "pt-br": "Balaio Criativos"
+    },
+    "description": {
+      "en": "Brazilian app of stickers for Instagram stories. 8k+ ready-made stickers and tools to create your own.",
+      "it-it": "App brasiliana di figurine per le stories di Instagram. Oltre 8mila pronte e strumenti per crearne di proprie.",
+      "pt-br": "App brasileiro de figurinhas para stories do Instagram. 8 mil+ prontas e ferramentas para criar as suas."
+    },
+    "about": {
+      "en": "Brazilian app of stickers for Instagram stories. 8k+ ready-made stickers and tools to create your own.",
+      "it-it": "App brasiliana di figurine per le stories di Instagram. Oltre 8mila pronte e strumenti per crearne di proprie.",
+      "pt-br": "App brasileiro de figurinhas para stories do Instagram. 8 mil+ prontas e ferramentas para criar as suas."
     }
   },
   "expertise": {
@@ -296,9 +313,9 @@
   },
   "footer": {
     "title": {
-      "en": "@ 2025 Mariosa Tech. All rights reserved.",
-      "it-it": "@ 2025 Mariosa Tech. Tutti i diritti riservati.",
-      "pt-br": "@ 2025 Mariosa Tech. Todos os direitos reservados."
+      "en": "@ 2022 - 2026  Mariosa Tech. All rights reserved.",
+      "it-it": "@ 2022 - 2026 Mariosa Tech. Tutti i diritti riservati.",
+      "pt-br": "@ 2022 - 2026 Mariosa Tech. Todos os direitos reservados."
     }
   },
   "slug": {
@@ -787,6 +804,33 @@
       "en": "The result was a complete e-commerce solution tailored for the confectionery industry that transformed Puro Sabor's operations, improved customer experience, and automated a significant portion of the sales flow. This allowed the team to be less overloaded while customers could purchase quickly and securely.",
       "it-it": "Il risultato è stata una soluzione e-commerce completa, pensata specificamente per il settore della pasticceria, che ha ottimizzato i processi interni, migliorato l'esperienza del cliente e permesso acquisti rapidi e sicuri, alleggerendo il lavoro del team operativo.",
       "pt-br": "O resultado foi uma solução completa de e-commerce para o segmento de confeitaria, que transformou a operação da Puro Sabor, melhorou a experiência dos clientes e automatizou boa parte do fluxo de vendas — permitindo que a equipe ficasse menos sobrecarregada e clientes comprassem de forma mais rápida e segura."
+    }
+  },
+  "balaiocriativos": {
+    "title": {
+      "en": "Balaio Criativos – App Mobile",
+      "it-it": "Balaio Criativos – App Mobile",
+      "pt-br": "Balaio Criativos – App Mobile"
+    },
+    "description": {
+      "en": "Balaio Criativos is a Brazilian app for stickers for Instagram stories. With over 8,000 ready-made stickers and an exclusive tab to create your own, it helps content creators and entrepreneurs elevate their social media with professional visuals, without design skills.",
+      "it-it": "Balaio Criativos è una app brasiliana di figurine per le stories di Instagram. Con oltre 8.000 figurine pronte e un'area dedicata per crearne di proprie, aiuta creatori di contenuti e imprenditori a valorizzare i propri social con visual professionali, senza competenze di design.",
+      "pt-br": "Balaio Criativos é um aplicativo brasileiro de figurinhas para stories do Instagram. Com mais de 8 mil figurinhas prontas e aba exclusiva para criar as suas, ajuda criadoras de conteúdo e empreendedoras a elevar as redes sociais com visual profissional, sem conhecimentos em design."
+    },
+    "challenge": {
+      "en": "Create a landing page that presents the Balaio Criativos app clearly, explains its value for content creators (creativity, time savings, consistency), showcases plans and subscription options, and converts visitors into app users — with a modern, responsive experience.",
+      "it-it": "Creare una landing page che presenti chiaramente l'app Balaio Criativos, ne comunichi il valore per i creatori di contenuti (creatività, risparmio di tempo, costanza), mostri piani e opzioni di abbonamento e converta i visitatori in utenti dell'app, con un'esperienza moderna e responsive.",
+      "pt-br": "Criar uma landing page que apresente o app Balaio Criativos de forma clara, transmita seu valor para criadoras de conteúdo (criatividade, tempo e constância), destaque planos e assinaturas e converta visitantes em usuárias do app, com experiência moderna e responsiva."
+    },
+    "whatsdone": {
+      "en": "Developed a responsive landing page with value proposition, app features (8k+ stickers, custom creation, all niches), subscription plans (monthly, semestral, annual), testimonials, FAQ, and contact form — aligned with the app's visual identity and focused on conversion.",
+      "it-it": "Sviluppata una landing page responsive con proposta di valore, funzionalità dell'app (8k+ figurine, creazione personalizzata, tutti i nicchi), piani di abbonamento (mensile, semestrale, annuale), testimonianze, FAQ e modulo di contatto, in linea con l'identità visiva dell'app e orientata alla conversione.",
+      "pt-br": "Desenvolvi uma landing page responsiva com proposta de valor, funcionalidades do app (8 mil+ figurinhas, criação própria, todos os nichos), planos de assinatura (mensal, semestral, anual), depoimentos, FAQ e formulário de contato, alinhada à identidade visual do app e focada em conversão."
+    },
+    "solution": {
+      "en": "The result is a conversion-focused landing page that clearly communicates what Balaio Criativos is — the first Brazilian app for Instagram story stickers — and how it helps creators save time and improve their content. The site supports subscriptions and directs users to the App Store and Play Store.",
+      "it-it": "Il risultato è una landing page orientata alla conversione che comunica chiaramente cos'è Balaio Criativos — la prima app brasiliana di figurine per le stories di Instagram — e come aiuta i creatori a risparmiare tempo e migliorare i contenuti. Il sito supporta gli abbonamenti e indirizza gli utenti all'App Store e al Play Store.",
+      "pt-br": "O resultado é uma landing page focada em conversão que comunica de forma clara o que é o Balaio Criativos — o primeiro app brasileiro de figurinhas para stories do Instagram — e como ele ajuda criadoras a ganhar tempo e melhorar o conteúdo. O site apresenta os planos de assinatura e direciona para a App Store e Play Store."
     }
   }
 }

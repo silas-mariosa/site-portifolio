@@ -23,7 +23,7 @@ export default function Portifolios({ data, isHome }: { data: PortifolioProps[],
 		return null
 	}
 
-	const portifolioData = isHome ? data.slice(0, 3) : data as PortifolioProps[]
+	const portifolioData = isHome ? data.filter((_, i) => [0, 2, 9].includes(i)) : data as PortifolioProps[]
 
 	return (
 		<section id='portifolios' className="flex flex-col gap-4 mx-[5%] sm:mx-[25%] text-white mb-[5%]">
